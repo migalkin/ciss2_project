@@ -1,0 +1,1170 @@
+{
+    "http://www.wikidata.org/entity/P101": [
+        "field of study",
+        "fields",
+        "discipline",
+        "subject",
+        "area",
+        "specialism",
+        "domain",
+        "academic discipline",
+        "scientific discipline",
+        "academic subject",
+        "academic area",
+        "scientific area",
+        "FOW",
+        "field of work"
+    ],
+    "http://www.wikidata.org/entity/P1029": [
+        "crew member"
+    ],
+    "http://www.wikidata.org/entity/P1040": [
+        "editor",
+        "edited by",
+        "film editor"
+    ],
+    "http://www.wikidata.org/entity/P105": [
+        "taxonomic rank",
+        "rank",
+        "type of taxon",
+        "taxon rank"
+    ],
+    "http://www.wikidata.org/entity/P106": [
+        "profession",
+        "job",
+        "work",
+        "career",
+        "employment",
+        "craft",
+        "occupation"
+    ],
+    "http://www.wikidata.org/entity/P1082": [
+        "inhabitants",
+        "human population",
+        "population"
+    ],
+    "http://www.wikidata.org/entity/P1083": [
+        "number of seats",
+        "seats",
+        "seating capacity",
+        "capacity",
+        "complement",
+        "crew",
+        "maximum capacity"
+    ],
+    "http://www.wikidata.org/entity/P1101": [
+        "number of floors",
+        "storeys",
+        "stories",
+        "floors above ground"
+    ],
+    "http://www.wikidata.org/entity/P112": [
+        "is founded by",
+        "founded",
+        "co-founder",
+        "founders",
+        "founder",
+        "co-founded",
+        "was founded by",
+        "established by",
+        "founded by"
+    ],
+    "http://www.wikidata.org/entity/P1128": [
+        "number of employees",
+        "workers",
+        "personnel",
+        "employee count",
+        "employees"
+    ],
+    "http://www.wikidata.org/entity/P113": [
+        "hub",
+        "hub airport",
+        "airline hub"
+    ],
+    "http://www.wikidata.org/entity/P1142": [
+        "ideology",
+        "political ideology"
+    ],
+    "http://www.wikidata.org/entity/P115": [
+        "ground",
+        "home field",
+        "arena",
+        "home ground",
+        "stadium",
+        "ballpark",
+        "home water",
+        "home venue"
+    ],
+    "http://www.wikidata.org/entity/P1174": [
+        "visitors per year"
+    ],
+    "http://www.wikidata.org/entity/P119": [
+        "burial place",
+        "resting place",
+        "place of grave",
+        "buried in",
+        "grave at",
+        "location of burial",
+        "tomb",
+        "interment",
+        "place of interment",
+        "buried at",
+        "place of burial"
+    ],
+    "http://www.wikidata.org/entity/P122": [
+        "type of government",
+        "form of government",
+        "government",
+        "basic form of government"
+    ],
+    "http://www.wikidata.org/entity/P123": [
+        "book publisher",
+        "video game publisher",
+        "software publisher",
+        "publishing house",
+        "published by",
+        "board game publisher",
+        "publisher"
+    ],
+    "http://www.wikidata.org/entity/P127": [
+        "is owned by",
+        "owner",
+        "belongs to",
+        "shareholder",
+        "stockholder",
+        "shareholders",
+        "stockholders",
+        "owners",
+        "provenance",
+        "owned by"
+    ],
+    "http://www.wikidata.org/entity/P1303": [
+        "plays",
+        "musical instrument",
+        "instrument"
+    ],
+    "http://www.wikidata.org/entity/P1308": [
+        "incumbent",
+        "officeholder"
+    ],
+    "http://www.wikidata.org/entity/P131": [
+        "located in the administrative unit",
+        "located in administrative unit",
+        "is in administrative unit",
+        "is located in",
+        "is in the state of",
+        "is in the province of",
+        "is in the county of",
+        "is in the district of",
+        "is in the department of",
+        "is in the region of",
+        "is in the borough of",
+        "is in the city of",
+        "is in the town of",
+        "is in the village of",
+        "is in the municipality of",
+        "is in the territory of",
+        "is in the prefecture of",
+        "is in the voivodeship of",
+        "is in the Indian reservation of",
+        "is in the Indian reserve of",
+        "is in the ward of",
+        "is in the administrative region of",
+        "is in the settlement of",
+        "is in the local government area of",
+        "is in the rural city of",
+        "is in the shire of",
+        "happens in",
+        "is in the commune of",
+        "in administrative unit",
+        "in",
+        "is in the administrative unit",
+        "administrative territorial entity",
+        "city",
+        "town",
+        "state",
+        "Indian reservation",
+        "in the administrative unit",
+        "locality",
+        "is in the parish of",
+        "location (administrative territorial entity)",
+        "is in the principal area of",
+        "based in",
+        "located in the administrative territorial entity",
+        "located in the territorial entity",
+        "region",
+        "located in area"
+    ],
+    "http://www.wikidata.org/entity/P1313": [
+        "office of head of government",
+        "position of head of government",
+        "position held by head of government",
+        "title of head of government",
+        "office held by head of government"
+    ],
+    "http://www.wikidata.org/entity/P135": [
+        "school",
+        "trend",
+        "movement"
+    ],
+    "http://www.wikidata.org/entity/P136": [
+        "music genre",
+        "film genre",
+        "artistic genre",
+        "literary genre",
+        "kind of music",
+        "type of film",
+        "genre of music",
+        "type of music",
+        "genre"
+    ],
+    "http://www.wikidata.org/entity/P1365": [
+        "forefather",
+        "previous job holder",
+        "replaced",
+        "preceded by",
+        "succeeds",
+        "after",
+        "predecessor",
+        "supersedes",
+        "continues from",
+        "replaces"
+    ],
+    "http://www.wikidata.org/entity/P137": [
+        "service operator",
+        "facility operator",
+        "operated by",
+        "managed by",
+        "administrator",
+        "item operator",
+        "user",
+        "operator"
+    ],
+    "http://www.wikidata.org/entity/P138": [
+        "eponym",
+        "named for",
+        "namesake",
+        "etymology",
+        "toponym",
+        "name after",
+        "named after"
+    ],
+    "http://www.wikidata.org/entity/P140": [
+        "faith",
+        "religious affiliation",
+        "life stance",
+        "denomination",
+        "religion"
+    ],
+    "http://www.wikidata.org/entity/P1408": [
+        "city of license",
+        "community of license",
+        "licensed to broadcast to"
+    ],
+    "http://www.wikidata.org/entity/P1412": [
+        "languages spoken",
+        "language spoken",
+        "language of expression",
+        "languages of expression",
+        "languages signed",
+        "language signed",
+        "language written",
+        "language read",
+        "language used",
+        "language",
+        "speaks language",
+        "writes language",
+        "signs language",
+        "uses language",
+        "wrote language",
+        "spoke language",
+        "used language",
+        "signed language",
+        "second language",
+        "languages spoken",
+        " written",
+        " or signed",
+        "language(s) spoken",
+        " written or signed",
+        "languages spoken, written or signed"
+    ],
+    "http://www.wikidata.org/entity/P1416": [
+        "affiliated with",
+        "affiliation"
+    ],
+    "http://www.wikidata.org/entity/P1431": [
+        "executive producer"
+    ],
+    "http://www.wikidata.org/entity/P144": [
+        "fork of",
+        "derived from",
+        "extended from",
+        "copy of",
+        "adapted from",
+        "based upon",
+        "theme",
+        "themed after",
+        "adaptation of",
+        "remake of",
+        "based on"
+    ],
+    "http://www.wikidata.org/entity/P1451": [
+        "slogan",
+        "mission statement",
+        "mission",
+        "tagline",
+        "motto text"
+    ],
+    "http://www.wikidata.org/entity/P1477": [
+        "maiden name",
+        "born as",
+        "bn",
+        "bname",
+        "birth name (monolingual text)",
+        "name",
+        "birthname",
+        "name at birth",
+        "full name at birth",
+        "nee",
+        "real name",
+        "birth name"
+    ],
+    "http://www.wikidata.org/entity/P149": [
+        "style of architecture",
+        "architecture",
+        "architectural style"
+    ],
+    "http://www.wikidata.org/entity/P150": [
+        "contains",
+        "divides into",
+        "divided into",
+        "has towns",
+        "has shires",
+        "has cities",
+        "has rural cities",
+        "has municipalities",
+        "has wards",
+        "has local government areas",
+        "has districts",
+        "has boroughs",
+        "subdivided into",
+        "has counties",
+        "has administrative divisions",
+        "has arrondissements",
+        "has villages",
+        "has regions",
+        "contains administrative territorial entity"
+    ],
+    "http://www.wikidata.org/entity/P155": [
+        "succeeds to",
+        "previous is",
+        "before was",
+        "predecessor",
+        "preceded by",
+        "prequel is",
+        "sequel of",
+        "split from",
+        "followed",
+        "comes after",
+        "follows"
+    ],
+    "http://www.wikidata.org/entity/P156": [
+        "succeded by",
+        "next is",
+        "precedes",
+        "sequel is",
+        "prequel of",
+        "successor",
+        "preceeds",
+        "followed by"
+    ],
+    "http://www.wikidata.org/entity/P159": [
+        "head office location",
+        "HQ",
+        "garrison",
+        "admin HQ",
+        "seat",
+        "principle office",
+        "headquarters",
+        "head quarters",
+        "HQ location",
+        "headquarters location"
+    ],
+    "http://www.wikidata.org/entity/P161": [
+        "starring",
+        "film starring",
+        "actor",
+        "actress",
+        "contestant",
+        "cast member"
+    ],
+    "http://www.wikidata.org/entity/P1619": [
+        "time of official opening",
+        "opening date",
+        "opened",
+        "date opened",
+        "officially opened on",
+        "inaugurated",
+        "launch date",
+        "introduced",
+        "introduction",
+        "official opening",
+        "date of official opening"
+    ],
+    "http://www.wikidata.org/entity/P162": [
+        "record producer",
+        "film producer",
+        "producer"
+    ],
+    "http://www.wikidata.org/entity/P17": [
+        "sovereign state",
+        "state",
+        "land",
+        "country"
+    ],
+    "http://www.wikidata.org/entity/P170": [
+        "artist (non-musical)",
+        "created by",
+        "painter",
+        "sculptor",
+        "creators",
+        "painters",
+        "sculptors",
+        "made by",
+        "creator"
+    ],
+    "http://www.wikidata.org/entity/P171": [
+        "taxon parent",
+        "higher taxon",
+        "parent taxon"
+    ],
+    "http://www.wikidata.org/entity/P172": [
+        "ethnicity",
+        "nationality",
+        "culture",
+        "peoples",
+        "ethnic group"
+    ],
+    "http://www.wikidata.org/entity/P175": [
+        "musical artist",
+        "artist",
+        "musician",
+        "played by",
+        "portrayed by",
+        "performer"
+    ],
+    "http://www.wikidata.org/entity/P176": [
+        "manufactured by",
+        "maker",
+        "mfr",
+        "built by",
+        "builder",
+        "made by",
+        "producer (of product)",
+        "product of",
+        "manufacturer"
+    ],
+    "http://www.wikidata.org/entity/P177": [
+        "bridge over",
+        "tunnel under",
+        "over",
+        "under",
+        "through",
+        "crosses"
+    ],
+    "http://www.wikidata.org/entity/P178": [
+        "developed by",
+        "developer"
+    ],
+    "http://www.wikidata.org/entity/P179": [
+        "part of series",
+        "part of the series"
+    ],
+    "http://www.wikidata.org/entity/P184": [
+        "advisor",
+        "doctoral supervisor",
+        "supervisor",
+        "PhD advisor",
+        "doctoral advisor"
+    ],
+    "http://www.wikidata.org/entity/P189": [
+        "findspot",
+        "location of discovered object",
+        "discovery place",
+        "place of discovery",
+        "discovered at:",
+        "location of discovery"
+    ],
+    "http://www.wikidata.org/entity/P19": [
+        "birthplace",
+        "born in",
+        "POB",
+        "birth place",
+        "location born",
+        "born at",
+        "birth location",
+        "location of birth",
+        "birth city",
+        "place of birth"
+    ],
+    "http://www.wikidata.org/entity/P196": [
+        "asteroid group",
+        "minor planet group"
+    ],
+    "http://www.wikidata.org/entity/P20": [
+        "deathplace",
+        "died in",
+        "death place",
+        "POD",
+        "location of death",
+        "death location",
+        "place of death"
+    ],
+    "http://www.wikidata.org/entity/P201": [
+        "outflows",
+        "outflow",
+        "lake outflow"
+    ],
+    "http://www.wikidata.org/entity/P2043": [
+        "distance",
+        "dimension",
+        "size",
+        "long",
+        "length"
+    ],
+    "http://www.wikidata.org/entity/P2046": [
+        "surface area",
+        "acreage",
+        "surface",
+        "size",
+        "total area",
+        "area"
+    ],
+    "http://www.wikidata.org/entity/P2048": [
+        "depth over terrain",
+        "size",
+        "height"
+    ],
+    "http://www.wikidata.org/entity/P21": [
+        "gender identity",
+        "gender expression",
+        "gender",
+        "biological sex",
+        "man",
+        "woman",
+        "male",
+        "female",
+        "intersex",
+        "sex",
+        "sex or gender"
+    ],
+    "http://www.wikidata.org/entity/P2130": [
+        "unit cost",
+        "cost"
+    ],
+    "http://www.wikidata.org/entity/P2196": [
+        "number of students",
+        "student count",
+        "count of students",
+        "enrollment",
+        "students count"
+    ],
+    "http://www.wikidata.org/entity/P22": [
+        "dad",
+        "daddy",
+        "has father",
+        "parent",
+        "is son of",
+        "is daughter of",
+        "is child of",
+        "son of",
+        "daughter of",
+        "child of",
+        "father"
+    ],
+    "http://www.wikidata.org/entity/P25": [
+        "mum",
+        "mom",
+        "mam",
+        "has mother",
+        "parent",
+        "is son of",
+        "is daughter of",
+        "is child of",
+        "son of",
+        "daughter of",
+        "child of",
+        "mother"
+    ],
+    "http://www.wikidata.org/entity/P26": [
+        "husband",
+        "wife",
+        "married to",
+        "consort",
+        "partner",
+        "marry",
+        "marriage partner",
+        "married",
+        "wedded to",
+        "wed",
+        "life partner",
+        "spouse"
+    ],
+    "http://www.wikidata.org/entity/P264": [
+        "label",
+        "record label"
+    ],
+    "http://www.wikidata.org/entity/P27": [
+        "citizenship",
+        "nationality",
+        "citizen of",
+        "national of",
+        "subject of (country)",
+        "country of citizenship"
+    ],
+    "http://www.wikidata.org/entity/P272": [
+        "film studio",
+        "studio",
+        "motion picture studio",
+        "movie studio",
+        "production house",
+        "theatre company",
+        "theater company",
+        "theatrical troupe",
+        "ballet company",
+        "broadcasting company",
+        "production company"
+    ],
+    "http://www.wikidata.org/entity/P275": [
+        "licence",
+        "content license",
+        "content licence",
+        "license"
+    ],
+    "http://www.wikidata.org/entity/P276": [
+        "moveable object location",
+        "located in",
+        "event location",
+        "venue",
+        "is in",
+        "location of item",
+        "place held",
+        "based in",
+        "neighborhood",
+        "region",
+        "location"
+    ],
+    "http://www.wikidata.org/entity/P279": [
+        "rdfs:subClassOf",
+        "hyponym of",
+        "has superclass",
+        "is also a",
+        "subtype of",
+        "is a subtype of",
+        "subcategory of",
+        "is a category of",
+        "is thereby also a",
+        "is necessarily also a",
+        "whose instances are among",
+        "whose instances are those of",
+        "subclass of"
+    ],
+    "http://www.wikidata.org/entity/P286": [
+        "manager",
+        "club manager",
+        "senior coach",
+        "team manager",
+        "coach",
+        "coached by",
+        "head coach"
+    ],
+    "http://www.wikidata.org/entity/P287": [
+        "has designer",
+        "designer",
+        "designed by"
+    ],
+    "http://www.wikidata.org/entity/P289": [
+        "ship class",
+        "submarine class",
+        "spacecraft class",
+        "class of vessel",
+        "vessel class"
+    ],
+    "http://www.wikidata.org/entity/P31": [
+        "is a",
+        "is an",
+        "has class",
+        "has type",
+        "is a particular",
+        "is a specific",
+        "is an individual",
+        "is a unique",
+        "is an example of",
+        "member of",
+        "unique individual of",
+        "distinct member of",
+        "non-type member of",
+        "unsubclassable example of",
+        "uninstantiable instance of",
+        "unsubclassifiable member of",
+        "not a type but is instance of",
+        "unsubtypable particular",
+        "unitary element of class",
+        "distinct element of",
+        "distinct individual member of",
+        "occurrence of",
+        "rdf:type",
+        "type",
+        "instance of",
+        "is a",
+        "is an",
+        "has class",
+        "has type",
+        "is a particular",
+        "is a specific",
+        "is an individual",
+        "is a unique",
+        "is an example of",
+        "member of",
+        "unique individual of",
+        "distinct member of",
+        "non-type member of",
+        "unsubclassable example of",
+        "uninstantiable instance of",
+        "unsubclassifiable member of",
+        "not a type but is instance of",
+        "unsubtypable particular",
+        "unitary element of class",
+        "distinct element of",
+        "distinct individual member of",
+        "occurrence of",
+        "rdf:type",
+        "type",
+        "instance of"
+    ],
+    "http://www.wikidata.org/entity/P344": [
+        "cinematographer",
+        "DOP",
+        "director of photography"
+    ],
+    "http://www.wikidata.org/entity/P36": [
+        "capital city",
+        "capital town",
+        "chef-lieu",
+        "principal place",
+        "county seat",
+        "administrative centre",
+        "administrative headquarters",
+        "capital"
+    ],
+    "http://www.wikidata.org/entity/P361": [
+        "meronym of",
+        "section of",
+        "system of",
+        "subsystem of",
+        "subassembly of",
+        "merged into",
+        "contained within",
+        "assembly of",
+        "part of-property",
+        "merged with",
+        "component of",
+        "in",
+        "within",
+        "part of"
+    ],
+    "http://www.wikidata.org/entity/P364": [
+        "original language",
+        "language of the original work",
+        "created on language",
+        "original language of film or TV show"
+    ],
+    "http://www.wikidata.org/entity/P376": [
+        "planet",
+        "astronomical body (location)",
+        "on astronomical body"
+    ],
+    "http://www.wikidata.org/entity/P397": [
+        "parent body",
+        "orbits",
+        "star",
+        "planetary system",
+        "parent astronomical body"
+    ],
+    "http://www.wikidata.org/entity/P398": [
+        "child body",
+        "satellite",
+        "orbited by",
+        "has planet",
+        "has moon",
+        "child astronomical body"
+    ],
+    "http://www.wikidata.org/entity/P40": [
+        "son",
+        "daughter",
+        "kid",
+        "has child",
+        "children",
+        "sons",
+        "daughters",
+        "kids",
+        "has children",
+        "has son",
+        "has sons",
+        "has daughter",
+        "has daughters",
+        "has kid",
+        "has kids",
+        "parent of",
+        "child"
+    ],
+    "http://www.wikidata.org/entity/P403": [
+        "watercourse outflow",
+        "watercourse drain",
+        "tributary of",
+        "outflow",
+        "drain",
+        "river mouth",
+        "outlet",
+        "confluences",
+        "watercourse ends in",
+        "mouth of the watercourse"
+    ],
+    "http://www.wikidata.org/entity/P404": [
+        "mode",
+        "gameplay",
+        "game mode"
+    ],
+    "http://www.wikidata.org/entity/P407": [
+        "language of the name",
+        "language of name",
+        "named in language",
+        "broadcasting language",
+        "audio language",
+        "available in",
+        "language of work",
+        "language of the reference",
+        "language of work or name"
+    ],
+    "http://www.wikidata.org/entity/P413": [
+        "player position",
+        "fielding position",
+        "specialism",
+        "position (on team)",
+        "speciality",
+        "position played on team / speciality"
+    ],
+    "http://www.wikidata.org/entity/P421": [
+        "timezone",
+        "tz",
+        "time zone",
+        "time",
+        "located in time zone"
+    ],
+    "http://www.wikidata.org/entity/P452": [
+        "field of action",
+        "field of exercise",
+        "sector",
+        "branch",
+        "economic branch",
+        "industry"
+    ],
+    "http://www.wikidata.org/entity/P466": [
+        "occupied by",
+        "tenant",
+        "inhabitant",
+        "inhabited by",
+        "occupant"
+    ],
+    "http://www.wikidata.org/entity/P488": [
+        "chairman",
+        "chairwoman",
+        "leader",
+        "headed by",
+        "president",
+        "chairperson"
+    ],
+    "http://www.wikidata.org/entity/P495": [
+        "place of origin",
+        "comes from",
+        "origin (country)",
+        "originates",
+        "CoO",
+        "country of origin"
+    ],
+    "http://www.wikidata.org/entity/P50": [
+        "written by",
+        "writer",
+        "writers",
+        "authors",
+        "author(s)",
+        "writer(s)",
+        "author"
+    ],
+    "http://www.wikidata.org/entity/P509": [
+        "death cause",
+        "die from",
+        "murder method",
+        "method of murder",
+        "cause of death"
+    ],
+    "http://www.wikidata.org/entity/P53": [
+        "royal house",
+        "dynasty",
+        "house",
+        "noble family",
+        "family"
+    ],
+    "http://www.wikidata.org/entity/P569": [
+        "born on",
+        "birth date",
+        "birthdate",
+        "birth year",
+        "year of birth",
+        "birthyear",
+        "DOB",
+        "birthday",
+        "date of birth"
+    ],
+    "http://www.wikidata.org/entity/P57": [
+        "directed by",
+        "film director",
+        "movie director",
+        "director"
+    ],
+    "http://www.wikidata.org/entity/P570": [
+        "date of the end",
+        "death date",
+        "died on",
+        "DOD",
+        "year of death",
+        "dead",
+        "deathdate",
+        "death",
+        "date of death"
+    ],
+    "http://www.wikidata.org/entity/P571": [
+        "date founded",
+        "date created",
+        "incorporated",
+        "foundation",
+        "founded",
+        "created",
+        "date of foundation",
+        "date of creation",
+        "established",
+        "establishment date",
+        "foundation date",
+        "creation date",
+        "incorporation date",
+        "date incorporated",
+        "date of incorporation",
+        "date of establishment",
+        "founding date",
+        "date of founding",
+        "date formed",
+        "formation date",
+        "formed on date",
+        "founded on date",
+        "incorporated on date",
+        "established on date",
+        "created on date",
+        "commencement date",
+        "date commenced",
+        "commenced on date",
+        "date of commencement",
+        "foundation/creation date",
+        "time of foundation or creation",
+        "date of foundation or creation",
+        "written on date",
+        "time of inception",
+        "year founded",
+        "year created",
+        "year incorporated",
+        "year written",
+        "year commenced",
+        "year established",
+        "date constructed",
+        "construction date",
+        "constructed",
+        "inititated",
+        "formation",
+        "dedication date",
+        "formed in",
+        "formed at",
+        "inaugurated",
+        "launch date",
+        "introduced",
+        "introduction",
+        "start date",
+        "completed",
+        "first issue",
+        "inception"
+    ],
+    "http://www.wikidata.org/entity/P58": [
+        "scriptwriter",
+        "screenplay by",
+        "teleplay by",
+        "writer (of screenplays)",
+        "film script by",
+        "screenwriter"
+    ],
+    "http://www.wikidata.org/entity/P59": [
+        "part of constellation",
+        "constellation"
+    ],
+    "http://www.wikidata.org/entity/P6": [
+        "mayor",
+        "prime minister",
+        "premier",
+        "first minister",
+        "head of national government",
+        "chancellor",
+        "governor",
+        "government headed by",
+        "executive power headed by",
+        "president",
+        "head of government"
+    ],
+    "http://www.wikidata.org/entity/P607": [
+        "war",
+        "battle",
+        "participated in conflict",
+        "participant in conflict",
+        "in conflict",
+        "in action",
+        "theater (military)",
+        "theatre (military)",
+        "conflict"
+    ],
+    "http://www.wikidata.org/entity/P61": [
+        "inventor",
+        "discovered by",
+        "invented by",
+        "discoverer",
+        "coined by",
+        "first described by",
+        "inventor or discoverer",
+        "invented or discovered by",
+        "discovered or invented by",
+        "developer",
+        "developed by",
+        "discoverer or inventor"
+    ],
+    "http://www.wikidata.org/entity/P641": [
+        "sports",
+        "sport played",
+        "sport"
+    ],
+    "http://www.wikidata.org/entity/P65": [
+        "discovery site",
+        "site of astronomical discovery"
+    ],
+    "http://www.wikidata.org/entity/P676": [
+        "lyricist",
+        "lyracist",
+        "words by",
+        "writer (of song lyrics)",
+        "author",
+        "lyrics by"
+    ],
+    "http://www.wikidata.org/entity/P69": [
+        "education",
+        "alumni of",
+        "alumnus of",
+        "alumna of",
+        "college attended",
+        "university attended",
+        "school attended",
+        "studied at",
+        "alma mater",
+        "graduate of",
+        "graduated from",
+        "faculty",
+        "educated at"
+    ],
+    "http://www.wikidata.org/entity/P710": [
+        "participants",
+        "attendee",
+        "player",
+        "competitor",
+        "candidate",
+        "party",
+        "event participant",
+        "agent",
+        "belligerents",
+        "between",
+        "victim",
+        "perpetrator",
+        "suspect",
+        "accused",
+        "participant"
+    ],
+    "http://www.wikidata.org/entity/P737": [
+        "informed by",
+        "has influence",
+        "influenced by"
+    ],
+    "http://www.wikidata.org/entity/P800": [
+        "literary works",
+        "bibliography",
+        "work",
+        "works",
+        "major works",
+        "famous works",
+        "significant works",
+        "known for",
+        "notable books",
+        "famous books",
+        "famous for",
+        "significance",
+        "representative work",
+        "artwork",
+        "notable work"
+    ],
+    "http://www.wikidata.org/entity/P81": [
+        "railway line",
+        "rapid transit line",
+        "line connected to",
+        "rail line connected to",
+        "is on",
+        "connecting line"
+    ],
+    "http://www.wikidata.org/entity/P822": [
+        "mascot"
+    ],
+    "http://www.wikidata.org/entity/P826": [
+        "musical key",
+        "key of musical composition",
+        "tonality"
+    ],
+    "http://www.wikidata.org/entity/P84": [
+        "architecture firm",
+        "architect"
+    ],
+    "http://www.wikidata.org/entity/P86": [
+        "songwriter",
+        "composed by",
+        "musical score by",
+        "music by",
+        "written by",
+        "composer"
+    ],
+    "http://www.wikidata.org/entity/P885": [
+        "river source",
+        "stream source",
+        "source of a stream",
+        "water source",
+        "water origin",
+        "river head",
+        "source of watercourse",
+        "origin of a watercourse"
+    ],
+    "http://www.wikidata.org/entity/P969": [
+        "address",
+        "street address",
+        "street without article",
+        "physical address",
+        "located at street address"
+    ]
+}

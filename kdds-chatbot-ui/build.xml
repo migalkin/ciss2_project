@@ -1,0 +1,239 @@
+<!--
+The build process is distributed into three stages: init, build, and publish.
+
+In the init stage, Ivy is configured and dependencies are resolved.
+In the build stage, source code is compiled, documentation is generated, unit tests are run, code style is checked and
+artifacts are generated.
+In the publish stage, the newly generated artifacts are published to the local Ivy repository.
+
+There are a few additional actions, such as proper, clean and archive. Proper and clean help reset the project to before
+and after the init state, respectively. Archive creates an archive of the project that can be used to recreate the
+current project state in the future. All dependencies are included, in case they will not be available in the future
+anymore.
+
+IMPORTANT: The folder structure of each project must remain fixed.
+
+The project's source code must be stored in the "src" folder. If the project provides unit tests, these must be stored
+in the "test" folder. Resolved dependencies must be stored in the "lib" folder. All results of the compilation must be
+stored in the "build" folder. The generation of new artifacts must happen in the "dist" folder. All generated artifacts
+must be published to the local repository and stored in the "publish" folder.
+-->
+<project name="kdds-chatbot-ui" basedir="." default="dist" xmlns:ivy="antlib:org.apache.ivy.ant">
+
+	<!-- ********************************************************
+	     * ENVIRONMENT SETTINGS                                 *
+		 ******************************************************** -->
+
+	<!--
+	Read the user's Ant configuration. This file should define the variable ivy.dir, specifying the path to where Ivy is
+	installed on this computer.
+	-->
+	<property file="${user.home}/.ant.user.properties" />
+
+	<!--
+	Define several Ivy tasks that can be used later. The Ivy library path is obtained from the file .ant.user.properties
+	loaded before.
+	-->
+	<taskdef resource="org/apache/ivy/ant/antlib.xml" uri="antlib:org.apache.ivy.ant">
+		<classpath id="ivy.lib.path">
+			<fileset dir="${ivy.dir}">
+				<include name="*.jar" />
+			</fileset>
+		</classpath>
+	</taskdef>
+
+	<!-- Define variables for required directories. -->
+		
+	<!-- default ivy-settings, can be overridden by -Divy.settings=... -->
+    <property name="ivy.settings" value="ivy-settings.xml"/>
+
+	<property name="src.dir" value="${basedir}/src" />
+	<property name="lib.dir" value="${basedir}/lib" />
+	
+	<property name="build.dir" value="${basedir}/build" />
+	<property name="dist.dir" value="${basedir}/dist" />
+	<property name="publish.dir" value="${basedir}/publish" />
+	<property name="archive.dir" value="${basedir}/archive" />
+
+	<path id="classpath">
+		<fileset dir="${lib.dir}">
+			<include name="**/*.jar" />
+		</fileset>
+	</path>
+
+
+	<!-- ********************************************************
+	     * CLEAN UP TARGETS                                     *
+		 ******************************************************** -->
+
+	<target name="clean.ivy" depends="-init.ivy" description="Cleans the Ivy cache">
+		<!-- This target cleans the Ivy cache folder. It depends on -init.ivy since we have to setup the Ivy task first. -->
+		<ivy:cleancache />
+	</target>
+
+	<target name="clean" description="Removes all files created during the build and publish stages">
+		<!-- This target returns the project to the point after the init stage and before the build stage -->
+		<delete dir="${build.dir}" />
+		<delete dir="${dist.dir}" />
+	</target>
+
+	<target name="proper" depends="clean" description="Removes all files created during the init, build and publish stages">
+		<!-- This target returns the project to the point before the init stage -->		
+		<delete dir="${publish.dir}" />
+		<delete dir="${archive.dir}" />
+		<delete dir="ivy.cache" />
+	</target>
+
+	<!-- ********************************************************
+	     * INIT TARGETS                                         *
+         * First stage of the building process                  *
+		 ******************************************************** -->
+
+	<target name="init" depends="-init.ivy, -init.resolve" description="Resolves all necessary dependencies">
+	</target>
+
+	<!-- ********************************************************
+	     * BUILD TARGETS                                        *
+         * Second stage of the building process                 *
+		 ******************************************************** -->
+
+	<target name="dist" depends="proper, init" description="Creates a distribution package">
+		<!--
+		This target builds the release and packages it for publishing. When this target is done, there should be several
+		files in the dist/ folder.
+		
+		The <property> task set up a variable with information we obtained from our ivy.xml file. Remember: To access
+		those variables you have to run <ivy:info file="${basedir}/ivy.xml" /> before. We did this by stating that the
+		"dist" target depends on running "init" first (first line!). So: If we raise the version number of the module we
+		only need to do this in the ivy.xml file - nowhere else!
+		-->
+		<delete dir="${dist.dir}" quiet="true" />
+		<mkdir dir="${dist.dir}" />
+
+		<delete dir="${build.dir}/src" quiet="true" />
+		<mkdir dir="${build.dir}/src" />
+
+		<property name="dist.label" value="${ivy.module}-${ivy.revision}-dist.zip" />
+		<echo message="Creating distribution of ${dist.label}" />
+
+		<!-- Copy the necessary files to the distribution directory -->
+		<copy todir="${build.dir}/src">
+			<fileset dir="${basedir}">
+				<exclude name="build/" />
+				<exclude name=".gitignore" />
+				<exclude name="build.xml" />
+				<exclude name="ivy.cache/" />
+				<exclude name="dist/" />
+			</fileset>
+		</copy>
+		
+		<propertyfile file="${build.dir}/src/VERSION.txt">
+			<entry key="project_name" value="${ivy.module}"/>
+			<entry key="build_version" value="${ivy.revision}"/>
+			<entry key="project_status" value="${ivy.status}"/>
+		</propertyfile>		
+
+		<!-- Pack everything into a ZIP file -->
+		<delete file="${dist.dir}/${dist.label}" quiet="true" />
+		<zip destfile="${dist.dir}/${dist.label}" basedir="${build.dir}/src" />
+	</target>
+
+	<!-- ***********************************************************
+	     * PUBLISH TARGETS                                         *
+	     * Third stage of the building process                     *
+		 *********************************************************** -->
+		 
+	<target name="publish" depends="proper, init, dist" description="Publishes the project to the local Ivy repository">
+		<!--
+		This task copies the artifacts created by the "dist" target, along with the ivy.xml file, to the publish/
+		directory and publishes them to your local integration repository.
+		
+		Some remarks:
+		- Naturally, this target depends on the "dist" target (which, in turn, depends on "init", which gives us the
+		  variables "ivy.organisation", "ivy.module" and so on...).
+		- In most cases <ivy:publish> should be called with overwrite="false" to avoid overwriting previously published
+		  modules.
+		- The resolver "local.integration" is defined in <Ivy-dir>/repository.local.integration/ivy-settings.xml .
+		- Last important thing: The artifacts pattern defines where to find your artifacts.
+		-->
+		<delete dir="${publish.dir}" quiet="true" />
+		<mkdir dir="${publish.dir}" />
+
+		<!-- Copy the artifacts and ivy.xml -->
+		<copy todir="${publish.dir}" flatten="true">
+			<fileset dir="${dist.dir}">
+				<include name="*.zip" />
+			</fileset>
+		</copy>
+		<copy todir="${publish.dir}" file="${basedir}/ivy.xml" />
+
+		<!-- Publish the artifacts to the local Ivy repository -->
+		<ivy:publish overwrite="true" organisation="${ivy.organisation}" module="${ivy.module}" revision="${ivy.revision}" resolver="local.integration" srcivypattern="${basedir}/ivy.xml">
+			<artifacts pattern="${publish.dir}/[artifact]-[revision]-[type].[ext]" />
+		</ivy:publish>
+	</target>		 
+
+	<target name="archive" depends="proper, init" description="Creates a ZIP file containing the source code and all dependencies">
+		<!--
+		This target creates an archive that can be used to recreate the current project state in the future. All
+		dependencies are included, in case they will not be available in the future anymore.
+		-->
+		<delete dir="${archive.dir}" quiet="true" />
+		<mkdir dir="${archive.dir}" />
+
+		<property name="snapshot.name" value="${ivy.organisation}-${ivy.module}-${ivy.revision}-sources+deps.zip" />
+		<echo message="Creating ZIP file containing source and dependencies: ${snapshot.name}" />
+		<zip destfile="${archive.dir}/${snapshot.name}">
+			<fileset dir="${basedir}">
+				<exclude name="**/.svn/" />
+				<exclude name="**/ivy.cache/" />
+				<exclude name="**/bin/" />			
+				<exclude name="${build.dir}" />
+				<exclude name="${dist.dir}" />
+				<exclude name="${publish.dir}" />
+				<exclude name="${archive.dir}" />
+			</fileset>
+		</zip>
+	</target>
+
+	<!-- ********************************************************
+	     * PRIVATE TARGETS                                      *
+		 ******************************************************** -->
+
+	<target name="-init.ivy" description="Initializes Ivy">
+		<!--
+		This target configures Ivy using Ant tasks defined with the <taskdef> command in the beginning. First, we
+		execute <ivy:settings> to read our local Ivy configuration, i.e., the path to the resolvers and the repositories
+		etc. Then, we read the ivy.xml file that resides in our project root in order to obtain various information,
+		such as the name of module (see here for details: http://ant.apache.org/ivy/history/2.1.0/use/info.html).
+		
+		Read more on Ivy http://nm-trac-int.iais.fraunhofer.de/projects/netmedia_ivy/wiki/ApacheIvyGettingStarted
+		 -->
+		<ivy:settings file="${ivy.dir}/${ivy.settings}" />
+		<ivy:info file="${basedir}/ivy.xml" />
+	</target>
+
+	<target name="-init.resolve" depends="-init.ivy">
+		<!--
+		This target is the 'two'-liner that will save you a lot of work. With <ivy:resolve>, we configure the resolver
+		for the project's ivy.xml file. <ivy:retrieve> does all the Ivy magic, like getting the project's dependencies
+		and all the dependencies' dependencies. After running this target you will have a lib/ subfolder with the JAR
+		files your project depends on.
+		-->
+		<!--
+		<delete dir="${lib.dir}" quiet="true" />
+		<mkdir dir="${lib.dir}" />-->
+
+		<ivy:resolve file="${basedir}/ivy.xml" conf="default" />
+		<ivy:retrieve pattern="${lib.dir}/[artifact]-[revision]-[type].[ext]" type="js,jsmin,css,cssmin,scss,res,swf,html" />
+		<ivy:retrieve pattern="${lib.dir}/[artifact]-[revision]" type="folder" />
+	</target>
+	
+	<target name="pin.versions" depends="-init.ivy" description="Set all dependencies in the ivy file to fixed versions">
+		<ivy:resolve file="${basedir}/ivy.xml" conf="*" />
+		<ivy:deliver conf="*"/>
+		<copy file="${basedir}/distrib/ivys/ivy-${ivy.revision}.xml" toFile="${basedir}/ivy.xml" overwrite="true"/>
+		<delete dir="${basedir}/distrib/"/>
+	</target>
+
+</project>

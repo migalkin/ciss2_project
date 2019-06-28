@@ -1,0 +1,27 @@
+app:
+  host: 0.0.0.0
+  port: 8050
+  cert: resources/cert.pem
+  key: resources/key.pem
+dm:
+  session: http://eis-warpcore-01:8081/startsession
+  utterance: http://eis-warpcore-01:8081/utterance
+  trigger: http://eis-warpcore-01:8081/trigger
+  tts: http://eis-warpcore-01:10000/synthesize?text
+  #speech: wss://nm-live-speech.iais.fraunhofer.de:443/english_aspire/283aa478/ws/speech
+  speech: wss://nm-live-speech.iais.fraunhofer.de:443/english_aspire/ws/speech
+  status: ws://eis-warpcore-02:10001/client/ws/status
+  hotword: Sophia,Sofia,Sophie,Sophy,Sofi
+  hotwordPerSegment: false
+  disableOutputOfIntermediateResults: false
+  speed: 60000
+  video: false
+  env_variables:
+    - Session
+    - Utterance
+    - Trigger
+    - Tts
+    - Hotword
+    - Speed
+    - Speech
+    - Status

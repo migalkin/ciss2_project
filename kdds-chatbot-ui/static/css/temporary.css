@@ -1,0 +1,36 @@
+.container {
+    padding: 30px;
+    background-color: #92a8d1;
+}
+.chat_window{
+	margin-left: 10%;
+	margin-right: 10%;
+	height: calc(100vh - 160px);
+	position: center;
+}
+.section {
+    display: -webkit-flex;
+    display: flex;
+}
+.messages{
+	height: calc(100vh - 250px);
+}
+
+.messages .message.left .text {
+    color: black !important;
+    font-weight: inherit;
+}
+
+#msg_input{
+    color: black;
+}
+
+/* .img-fix-size {
+  margin: auto;
+  max-height: calc(100vh - 120px);
+}
+
+.fixHeight {
+  text-align: center;
+  height: calc(100vh - 120px);
+} */

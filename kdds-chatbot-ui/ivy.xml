@@ -1,0 +1,16 @@
+<ivy-module version="2.0">
+	<info organisation="fraunhofer.iais" module="kdds-chatbot-ui" revision="1.2.1-dev" status="integration"      />
+	<configurations defaultconfmapping="*->default">
+		<conf name="default" />
+		<conf name="test" />
+	</configurations>
+
+	<publications>
+		<artifact name="kdds-chatbot-ui"  type="dist" ext="zip" />
+	</publications>
+
+	<dependencies>
+	
+	</dependencies>
+
+</ivy-module>

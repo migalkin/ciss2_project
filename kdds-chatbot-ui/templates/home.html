@@ -1,0 +1,88 @@
+{% extends "base.html" %}
+
+{% block style %}
+  {{ super() }}
+  <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/chat_interface.css') }}">
+  <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/temporary.css') }}">
+  <link href="https://fonts.googleapis.com/css?family=Josefin+Sans:300|Open+Sans:300|Oxygen|Material+Icons" rel="stylesheet">
+  <!-- Carousel CSS -->
+  <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/gh/kenwheeler/slick@1.8.1/slick/slick.css"/>
+{% endblock %}
+
+{% block content %}
+
+            <!-- <div class="col-sm-6"> -->
+                <div class="chat_window">
+                    <ul class="messages"></ul>
+                    <div class="bottom_wrapper clearfix">
+                        <div>
+                            <div class="message_input_wrapper" style="float:left">
+                                <input id="msg_input" class="message_input" placeholder="Say Hi to begin chat..." />
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+                <!-- 
+                <div>
+                    <br/>Hotword: <input type="text" id="hotword" name="hotword"/> Per segment: <input type="checkbox" id="per_segment_hotword" name="per_segment_hotword"/>
+                </div>
+                -->
+                <div class="message_template">                 
+                    <li class="message">
+                        <div class="avatar"></div>
+                        <div class="text_wrapper">
+                            <div class="text"></div>
+                        </div>
+                    </li>
+                </div>
+
+
+
+
+{% endblock %}
+
+{% block script %}
+  {{ super() }}
+  <script>
+  	var Pictures = {{pictures|safe}};
+    var AppConfig = { "tts": "{{app_config.tts}}",
+                      "sessionId": "{{app_config.session}}",
+                      "utterance": "{{app_config.utterance}}",
+                      "trigger": "{{app_config.trigger}}",
+                      "speechRecogSrv":
+                        {
+                            "speech": "{{app_config.speech}}",
+                            "status": "{{app_config.status}}"
+                        },
+                      "hotword": 
+                      	{
+                    	  	"hotword": "{{app_config.hotword}}",
+                    	  	"perSegment": "{{app_config.hotwordPerSegment}}"
+                      },
+                      "disableOutputOfIntermediateResults" : "{{app_config.disableOutputOfIntermediateResults}}",
+                      "video" : "{{app_config.video}}"
+                      };
+    var Speed = {{app_config.speed}};
+    var NumOfPics = {{numOfPics}};
+  </script>
+  
+  <script type="text/javascript" src="{{ url_for('static', filename='js/services/trigger.js') }}"></script>
+  <script type="text/javascript" src="{{ url_for('static', filename='js/services/microphone.js') }}"></script>
+  <script type="text/javascript" src="{{ url_for('static', filename='js/services/backend-access.js') }}"></script>
+  
+  <script type="text/javascript" src="{{ url_for('static', filename='js/autoplay.js')}}"></script>
+  <script type="text/javascript" src="{{ url_for('static', filename='js/bind.js') }}"></script>
+  <script type="text/javascript" src="{{ url_for('static', filename='js/bootstrap.js') }}"></script>
+  <script type="text/javascript" src="{{ url_for('static', filename='js/dictate.js') }}"></script>  
+  <script type="text/javascript" src="{{ url_for('static', filename='js/jquery-1.10.2.js') }}"></script>  
+  <script type="text/javascript" src="{{ url_for('static', filename='js/jquery.easing.min.js') }}"></script>
+  <script type="text/javascript" src="{{ url_for('static', filename='js/mob.js') }}"></script>  
+  <script type="text/javascript" src="{{ url_for('static', filename='js/presynthesis.js') }}"></script>
+  <script type="text/javascript" src="{{ url_for('static', filename='js/recorder.js') }}"></script>
+  <script type="text/javascript" src="{{ url_for('static', filename='js/recorderWorker.js') }}"></script>
+  
+  
+  <script type="text/javascript" src="//cdn.jsdelivr.net/gh/kenwheeler/slick@1.8.1/slick/slick.min.js"></script>
+  
+{% endblock %}

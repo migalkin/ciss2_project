@@ -1,0 +1,350 @@
+Relations,Templates
+http://dbpedia.org/ontology/abstract,Y
+http://www.w3.org/2000/01/rdf-schema#label,This is X
+http://www.w3.org/1999/02/22-rdf-syntax-ns#type,X is a Y
+http://dbpedia.org/ontology/abbreviation,X is abbreviated as Y
+http://dbpedia.org/ontology/academicAdvisor,Y is the academic advisor of X
+http://dbpedia.org/ontology/academicDiscipline,Y is the academic discipline of X
+http://dbpedia.org/ontology/activeYearsEndDate,X was active until Y
+http://dbpedia.org/ontology/activeYearsEndYear,X was active until Y
+http://dbpedia.org/ontology/activeYearsStartDate,X was active from Y
+http://dbpedia.org/ontology/activeYearsStartYear,X was active from Y
+http://dbpedia.org/ontology/address,The address of X is Y
+http://dbpedia.org/ontology/administrativeDistrict,X is in the administrative district of Y
+http://dbpedia.org/ontology/affiliation,X is affiliated to Y
+http://dbpedia.org/ontology/alias,X has alias Y
+http://dbpedia.org/ontology/allegiance,X has allegiance to Y
+http://dbpedia.org/ontology/almaMater,X studied at Y
+http://dbpedia.org/ontology/anthem,Y is the anthem for X
+http://dbpedia.org/ontology/appointer,X was appointed by Y
+http://dbpedia.org/ontology/architect,Y was the architect of X
+http://dbpedia.org/ontology/architecturalStyle,X was constructed using the Y architectural style
+http://dbpedia.org/ontology/area,X has area Y
+http://dbpedia.org/ontology/areaCode,X has area code Y
+http://dbpedia.org/ontology/areaLand,X has land area of Y square metres
+http://dbpedia.org/ontology/areaMetro,X has a metropolitan area of Y
+http://dbpedia.org/ontology/areaOfCatchment,X has a catchment area of Y square metres
+http://dbpedia.org/ontology/areaTotal,X has a total area of Y square metres
+http://dbpedia.org/ontology/areaUrban,X has an urban area of Y square metres
+http://dbpedia.org/ontology/areaWater,X has a water area of Y square metres
+http://dbpedia.org/ontology/arrondissement,X is in the arrondissement Y
+http://dbpedia.org/ontology/assets,X has assets valued at Y
+http://dbpedia.org/ontology/associate,X is associated to Y
+http://dbpedia.org/ontology/author,X was written by Y
+http://dbpedia.org/ontology/averageAnnualGeneration,X has an average annual gross power generation of Y joule
+http://dbpedia.org/ontology/averageDepth,The average depth of X is Y
+http://dbpedia.org/ontology/award,X has been awarded with the Y
+http://dbpedia.org/ontology/battle,X was involved in the Y
+http://dbpedia.org/ontology/birthDate,X was born on Y
+http://dbpedia.org/ontology/birthName,The name at birth of X is Y
+http://dbpedia.org/ontology/birthPlace,X was born in Y
+http://dbpedia.org/ontology/birthYear,X was born in Y
+http://dbpedia.org/ontology/bridgeCarries,X can carry vehicles of type Y
+http://dbpedia.org/ontology/builder,X was built by Y
+http://dbpedia.org/ontology/buildingEndDate,The building process for X ended on Y
+http://dbpedia.org/ontology/buildingStartDate,The building process for X started on Y
+http://dbpedia.org/ontology/buildingStartYear,The building process for X started in Y
+http://dbpedia.org/ontology/campus,The X campus is in Y
+http://dbpedia.org/ontology/canonizedBy,X was canonized by Y
+http://dbpedia.org/ontology/canonizedPlace,X was canonized in Y
+http://dbpedia.org/ontology/canton,X is located in canton Y
+http://dbpedia.org/ontology/capacity,X has a capacity of Y
+http://dbpedia.org/ontology/capital,Y is the capital of X
+http://dbpedia.org/ontology/causalties,The X had Y casualties
+http://dbpedia.org/ontology/censusYear,The census year of X is Y
+http://dbpedia.org/ontology/chain,The X belongs to the Y chain
+http://dbpedia.org/ontology/chairman,The chairman of the X is Y
+http://dbpedia.org/ontology/chairmanTitle,The chairman of the X is called Y
+http://dbpedia.org/ontology/championships,X won Y championships
+http://dbpedia.org/ontology/chancellor,X served under the chancellor Y
+http://dbpedia.org/ontology/characterInPlay,Y is a character in the play X
+http://dbpedia.org/ontology/child,Y is the child of X
+http://dbpedia.org/ontology/citizenship,X has the citizenship of Y
+http://dbpedia.org/ontology/city,X is in Y
+http://dbpedia.org/ontology/closingYear,The X was closed in the year Y
+http://dbpedia.org/ontology/coach,The coach of the X is Y
+http://dbpedia.org/ontology/code,The code for X is Y
+http://dbpedia.org/ontology/colourHexCode,The colour X has the hexa code Y
+http://dbpedia.org/ontology/combatant,Y was a combatant in the X
+http://dbpedia.org/ontology/commander,Y was a commander in the X
+http://dbpedia.org/ontology/committee,X is in the Y committee
+http://dbpedia.org/ontology/constructionMaterial,The X is made of Y
+http://dbpedia.org/ontology/cosparId,The international designator of X is Y
+http://dbpedia.org/ontology/cost,The cost of the X was Y
+http://dbpedia.org/ontology/country,The country of X is Y
+http://dbpedia.org/ontology/crosses,The X crosses the Y
+http://dbpedia.org/ontology/currency,The currency of X is the Y
+http://dbpedia.org/ontology/date,The date of the X is Y
+http://dbpedia.org/ontology/daylightSavingTimeZone,The day light saving time zone of X is Y
+http://dbpedia.org/ontology/deathCause,The cause of death of X was Y
+http://dbpedia.org/ontology/deathDate,X died on Y
+http://dbpedia.org/ontology/deathPlace,The place of death of X was Y
+http://dbpedia.org/ontology/deathYear,X died in year Y
+http://dbpedia.org/ontology/demonym,A resident or native of X is a Y
+http://dbpedia.org/ontology/depictionDescription,X was depicted in description of Y
+http://dbpedia.org/ontology/deputy,The deputy of X is Y
+http://dbpedia.org/ontology/designer,X was designed by Y
+http://dbpedia.org/ontology/destructionDate,The X was destroyed on Y
+http://dbpedia.org/ontology/developer,X was developed by Y
+http://dbpedia.org/ontology/discharge,X has a discharge of Y cubic metres per second
+http://dbpedia.org/ontology/discipline,The discipline of X is Y
+http://dbpedia.org/ontology/dissolutionDate,X dissolved on Y
+http://dbpedia.org/ontology/dissolutionYear,X dissolved in Y
+http://dbpedia.org/ontology/district,The X is in the Y district
+http://dbpedia.org/ontology/division,X is a division of Y
+http://dbpedia.org/ontology/doctoralAdvisor,The doctoral advisor of X was Y
+http://dbpedia.org/ontology/doctoralStudent,X was the doctoral advisor of Y
+http://dbpedia.org/ontology/education,X had their studies in Y
+http://dbpedia.org/ontology/elevation,The elevation of X is Y above the sea level
+http://dbpedia.org/ontology/employer,Y is the employer of X
+http://dbpedia.org/ontology/endowment,The endowment of X is Y
+http://dbpedia.org/ontology/engineer,The engineering of X is done by Y
+http://dbpedia.org/ontology/equity,X has equity Y
+http://dbpedia.org/ontology/era,Y is the era of X
+http://dbpedia.org/ontology/ethnicGroup,Y is an ethnic group in X
+http://dbpedia.org/ontology/ethnicGroupsInYear,X has ethnic groups in year Y
+http://dbpedia.org/ontology/facultySize,The faculty size of X is Y
+http://dbpedia.org/ontology/fastestLap,X has the fastest lap as Y
+http://dbpedia.org/ontology/federalState,The federal state of X is Y
+http://dbpedia.org/ontology/field,The field(s) of X is Y
+http://dbpedia.org/ontology/firstPublicationYear,X was first published in year Y
+http://dbpedia.org/ontology/firstRace,The first race of X was Y
+http://dbpedia.org/ontology/flag,The flag of X is Y
+http://dbpedia.org/ontology/floorArea,The floor area of X is Y
+http://dbpedia.org/ontology/floorCount,The total number of floors in the X is Y
+http://dbpedia.org/ontology/formationDate,The formation date of the X is Y
+http://dbpedia.org/ontology/formationYear,The formation year of the X is Y
+http://dbpedia.org/ontology/formerName,The former name of the X was Y
+http://dbpedia.org/ontology/foundationPlace,The foundation place(s) of X is Y
+http://dbpedia.org/ontology/foundedBy,X was founded by Y
+http://dbpedia.org/ontology/foundingDate,X was founded on Y
+http://dbpedia.org/ontology/foundingYear,X was founded in year Y
+http://dbpedia.org/ontology/frequency,The frequency of radio station X is Y
+http://dbpedia.org/ontology/frequencyOfPublication,The publication frequency of X is Y
+http://dbpedia.org/ontology/frozen,The frozen time of X is Y
+http://dbpedia.org/ontology/genre,The genre of X is Y
+http://dbpedia.org/ontology/governingBody,The governing body of X is Y
+http://dbpedia.org/ontology/government,The government of X is Y
+http://dbpedia.org/ontology/governmentType,The type of government in X is Y
+http://dbpedia.org/ontology/ground,The ground of X is Y
+http://dbpedia.org/ontology/headquarter,Y is the headquarter of X
+http://dbpedia.org/ontology/height,The height of X is Y meters
+http://dbpedia.org/ontology/highestPlace,Y is the highest place of X
+http://dbpedia.org/ontology/homeport,The home port of X is Y
+http://dbpedia.org/ontology/homeStadium,The home stadium of X is Y
+http://dbpedia.org/ontology/hsvCoordinateHue,The hue coordinate in the HSV colour space of X is Y
+http://dbpedia.org/ontology/hsvCoordinateSaturation,The saturation coordinate in the HSV colour space of X is Y
+http://dbpedia.org/ontology/hsvCoordinateValue,The value coordinate in the HSV colour space of X is Y
+http://dbpedia.org/ontology/iataLocationIdentifier,The IATA Location Identifier of X is Y
+http://dbpedia.org/ontology/icaoLocationIdentifier,The ICAO Location Identifier of X is Y
+http://dbpedia.org/ontology/id,The Word Heritage ID of X is Y
+http://dbpedia.org/ontology/imdbId,The International Movie Database ID of X is Y
+http://dbpedia.org/ontology/impactFactor,The impact factor of X is Y
+http://dbpedia.org/ontology/industry,X is in the Y industry
+http://dbpedia.org/ontology/inflow,Y flows into the X
+http://dbpedia.org/ontology/influenced,X influenced Y
+http://dbpedia.org/ontology/influencedBy,X is influenced by Y
+http://dbpedia.org/ontology/inseeCode,The insee code of X is Y
+http://dbpedia.org/ontology/institution,X is a member of Y
+http://dbpedia.org/ontology/intercommunality,Y is the intercommunality of X
+http://dbpedia.org/ontology/internationally,X is Y internationally known
+http://dbpedia.org/ontology/isbn,The International Standard Book Number of X is Y
+http://dbpedia.org/ontology/island,Y is an island in the X
+http://dbpedia.org/ontology/iso6393Code,The ISO 6393 code of the X is Y
+http://dbpedia.org/ontology/isoCodeRegion,X has the ISO region code Y
+http://dbpedia.org/ontology/isPartOf,X is part of Y
+http://dbpedia.org/ontology/isPartOfMilitaryConflict,The X was fought in the Y
+http://dbpedia.org/ontology/issn,The International Standard Serial Number of X is Y
+http://dbpedia.org/ontology/jstor,The journal storage number of X is Y
+http://dbpedia.org/ontology/keyPerson,Y is the key person of X
+http://dbpedia.org/ontology/knownFor,X is known for Y
+http://dbpedia.org/ontology/lake,X has lake Y
+http://dbpedia.org/ontology/language,Y is a language of X
+http://dbpedia.org/ontology/languageFamily,The X belong to the Y family
+http://dbpedia.org/ontology/largestCity,The largest city of X is Y
+http://dbpedia.org/ontology/largestSettlement,The largest settlement of X is Y
+http://dbpedia.org/ontology/lastRace,The last race of X was the Y
+http://dbpedia.org/ontology/latestReleaseVersion,The latest release version of X is Y
+http://dbpedia.org/ontology/lccn,The Library of Congress Control Number of X is Y
+http://dbpedia.org/ontology/leader,Y has been the leader of X
+http://dbpedia.org/ontology/leaderFunction,The function of leader X is Y
+http://dbpedia.org/ontology/leaderName,The leader of X has been Y
+http://dbpedia.org/ontology/leaderParty,The leader party of X is Y
+http://dbpedia.org/ontology/leaderTitle,The title of the leader of X is Y
+http://dbpedia.org/ontology/league,X was in Y league
+http://dbpedia.org/ontology/leftTributary,The Y is a left tributary of the X
+http://dbpedia.org/ontology/length,X has length Y
+http://dbpedia.org/ontology/license,The license for X is Y
+http://dbpedia.org/ontology/lineLength,The X is Y meters long
+http://dbpedia.org/ontology/locatedInArea,X is located in Y
+http://dbpedia.org/ontology/location,Y is the location of X
+http://dbpedia.org/ontology/locationCity,X is located in Y
+http://dbpedia.org/ontology/locationCountry,X is located in Y
+http://dbpedia.org/ontology/longName,Y is the long name of X
+http://dbpedia.org/ontology/lowest,The lowest point of X is Y
+http://dbpedia.org/ontology/lowestPlace,The lowest place of X is in Y
+http://dbpedia.org/ontology/mainInterest,The main interest of X is Y
+http://dbpedia.org/ontology/mainspan,The main span of X is Y
+http://dbpedia.org/ontology/majorShrine,X has a major shrine in Y
+http://dbpedia.org/ontology/manager,The manager in the X has been Y
+http://dbpedia.org/ontology/managerTitle,The title of the manager of the X is Y
+http://dbpedia.org/ontology/mascot,X has Y as a mascot
+http://dbpedia.org/ontology/maximumDepth,The X has a maximum depth of Y
+http://dbpedia.org/ontology/maximumDischarge,The X has a maximum discharge of Y cubic metres per second
+http://dbpedia.org/ontology/maximumElevation,X has a maximum elevation of Y metres above the sea level
+http://dbpedia.org/ontology/maximumTemperature,X has a maximum temperature of Y Kelvin
+http://dbpedia.org/ontology/mayor,The mayor of X is Y
+http://dbpedia.org/ontology/militaryBranch,Y is the military branch of X
+http://dbpedia.org/ontology/militaryCommand,X has the military command of Y
+http://dbpedia.org/ontology/militaryRank,X has the military rank of Y
+http://dbpedia.org/ontology/militaryUnit,The Y is the military unit of X
+http://dbpedia.org/ontology/minimumDischarge,The minimum discharge of X is Y
+http://dbpedia.org/ontology/minimumElevation,The minimum elevation of X is Y
+http://dbpedia.org/ontology/minimumTemperature,X can get minimum temperature of Y
+http://dbpedia.org/ontology/motto,Motto of X is Y
+http://dbpedia.org/ontology/mouthCountry,X starts from Y
+http://dbpedia.org/ontology/mouthElevation,X starts with elevation of Y
+http://dbpedia.org/ontology/mouthMountain,X starts from the mountain Y
+http://dbpedia.org/ontology/mouthPlace,X starts from Y
+http://dbpedia.org/ontology/mouthPosition,The mouth position of X is Y
+http://dbpedia.org/ontology/mouthRegion,Y is the mouth region of X
+http://dbpedia.org/ontology/movement,X was part of the movement Y
+http://dbpedia.org/ontology/municipalityCode,Y is the municipality code of X
+http://dbpedia.org/ontology/nationality,X has nationality Y
+http://dbpedia.org/ontology/nearestCity,Y is the nearest city of X
+http://dbpedia.org/ontology/neighboringMunicipality,The neighboring municipality of X is Y
+http://dbpedia.org/ontology/netIncome,X has net income Y
+http://dbpedia.org/ontology/nonFictionSubject,X has the non fiction subject(s) Y
+http://dbpedia.org/ontology/notableIdea,Y is the notable idea of X
+http://dbpedia.org/ontology/notableStudent,The notable student in X is Y
+http://dbpedia.org/ontology/numberOfDoctoralStudents,X has Y doctoral students
+http://dbpedia.org/ontology/numberOfEmployees,The number of employees in X is Y
+http://dbpedia.org/ontology/numberOfPages,The number of pages in X is Y
+http://dbpedia.org/ontology/numberOfPostgraduateStudents,The number of post graduate students in X is Y
+http://dbpedia.org/ontology/numberOfRestaurants,The number of restaurant in X is Y
+http://dbpedia.org/ontology/numberOfRooms,The number of rooms in X is Y
+http://dbpedia.org/ontology/numberOfSpans,The bridge X has Y spans
+http://dbpedia.org/ontology/numberOfStudents,The number of students in X is Y
+http://dbpedia.org/ontology/numberOfUndergraduateStudents,The number of under graduate students in X is Y
+http://dbpedia.org/ontology/numberOfVisitors,X has Y visitors
+http://dbpedia.org/ontology/numberOfVolunteers,The number of volunteers in X are Y
+http://dbpedia.org/ontology/occupation,Y is the occupation of X
+http://dbpedia.org/ontology/oclc,The Online Computer Library Center number of X is Y
+http://dbpedia.org/ontology/office,Y is the office(s) X
+http://dbpedia.org/ontology/officialLanguage,Y is the official language of X
+http://dbpedia.org/ontology/officialSchoolColour,The official school colour of school X is Y
+http://dbpedia.org/ontology/openAccessContent,X has Y open access content level
+http://dbpedia.org/ontology/openingDate,The opening date of X is Y
+http://dbpedia.org/ontology/openingYear,The opening year of X is Y
+http://dbpedia.org/ontology/operatingIncome,The operating income of X is Y
+http://dbpedia.org/ontology/operatingSystem,Y is the operating system support(s) X
+http://dbpedia.org/ontology/operator,Y is the operator of X
+http://dbpedia.org/ontology/orderInOffice,The order in office of X is Y
+http://dbpedia.org/ontology/origin,The origin of X is Y
+http://dbpedia.org/ontology/originalLanguage,The original language of X is Y
+http://dbpedia.org/ontology/otherParty,Y is the other party(s) that X belongs to
+http://dbpedia.org/ontology/outflow,X is the outflow of Y
+http://dbpedia.org/ontology/owner,Y is the owner of X
+http://dbpedia.org/ontology/owningCompany,Y is owning company X
+http://dbpedia.org/ontology/parent,Y is the parent of X
+http://dbpedia.org/ontology/parentCompany,Y is the parent company of X
+http://dbpedia.org/ontology/part,Y is part(s) of X
+http://dbpedia.org/ontology/partner,X and Y are partner
+http://dbpedia.org/ontology/party,X belongs to the Y
+http://dbpedia.org/ontology/passengersPerYear,Y number of passenger travelled in X per year
+http://dbpedia.org/ontology/percentageOfAreaWater,X has Y percent covered with water
+http://dbpedia.org/ontology/philosophicalSchool,X was at the Y philosophical school
+http://dbpedia.org/ontology/place,X happened at Y
+http://dbpedia.org/ontology/podiums,X has Y podiums
+http://dbpedia.org/ontology/poles,X has pole Y
+http://dbpedia.org/ontology/populationDensity,The population density of X is Y
+http://dbpedia.org/ontology/populationMetro,Metro population of X is Y
+http://dbpedia.org/ontology/populationMetroDensity,The metro population density of X is Y
+http://dbpedia.org/ontology/populationTotal,The total population of X is Y
+http://dbpedia.org/ontology/populationTotalRanking,The X is ranked Y in terms of population total
+http://dbpedia.org/ontology/populationUrban,Urban population of X is Y
+http://dbpedia.org/ontology/populationUrbanDensity,The urban population density of X is Y
+http://dbpedia.org/ontology/postalCode,The postal code of X is Y
+http://dbpedia.org/ontology/powerType,X has power type Y
+http://dbpedia.org/ontology/predecessor,X is the predecessor of Y
+http://dbpedia.org/ontology/premiereDate,Premiere of X happened in Y
+http://dbpedia.org/ontology/premierePlace,The premiere place of X is Y
+http://dbpedia.org/ontology/premiereYear,The premiere year of X is Y
+http://dbpedia.org/ontology/president,Y was the president of X
+http://dbpedia.org/ontology/primeMinister,Y was the prime minister of X
+http://dbpedia.org/ontology/product,X has product(s) Y
+http://dbpedia.org/ontology/profession,X has profession Y
+http://dbpedia.org/ontology/provost,The provost of the X is Y
+http://dbpedia.org/ontology/publisher,X is published by Y
+http://dbpedia.org/ontology/purpose,The purpose of X is Y
+http://dbpedia.org/ontology/quote,X has stated Y quote
+http://dbpedia.org/ontology/races,X was in Y Formula One races
+http://dbpedia.org/ontology/rebuildingYear,The X was rebuilt in the year Y
+http://dbpedia.org/ontology/region,X is in Y
+http://dbpedia.org/ontology/regionalLanguage,The regional language of X is Y
+http://dbpedia.org/ontology/relation,X is related to Y
+http://dbpedia.org/ontology/religion,Y is the religion of X
+http://dbpedia.org/ontology/residence,Y is the residence of X
+http://dbpedia.org/ontology/restingPlace,Y is the resting place of X
+http://dbpedia.org/ontology/result,X resulted in the Y
+http://dbpedia.org/ontology/revenue,The annual revenue of X is Y US dollars
+http://dbpedia.org/ontology/rightTributary,The Y is a right tributary of the X
+http://dbpedia.org/ontology/river,The Y is the river of X
+http://dbpedia.org/ontology/riverMouth,Y is the river mouth of X
+http://dbpedia.org/ontology/routeEnd,The X ends in Y
+http://dbpedia.org/ontology/routeStart,The X starts in Y
+http://dbpedia.org/ontology/runwayDesignation,The designation of the X runway is Y
+http://dbpedia.org/ontology/runwayLength,The lenght of the X runway is Y
+http://dbpedia.org/ontology/runwaySurface,The runway surface of the X is Y
+http://dbpedia.org/ontology/seatingCapacity,X has a seating capacity of Y
+http://dbpedia.org/ontology/service,X provides Y services
+http://dbpedia.org/ontology/serviceEndYear,The services of X ended in Y
+http://dbpedia.org/ontology/serviceStartYear,X started service in Y
+http://dbpedia.org/ontology/servingRailwayLine,Y is a serving railway line of X
+http://dbpedia.org/ontology/settingOfPlay,The play X is set in Y
+http://dbpedia.org/ontology/shipBeam,The ship beam of the X is Y
+http://dbpedia.org/ontology/signature,Y is the signature of X
+http://dbpedia.org/ontology/significantBuilding,Y is significant building for X
+http://dbpedia.org/ontology/significantProject,Y is significant project for X
+http://dbpedia.org/ontology/soundRecording,Y sound recording is done for X
+http://dbpedia.org/ontology/source,The source of the X is the Y
+http://dbpedia.org/ontology/sourceConfluence,The source confluence of the X is the Y
+http://dbpedia.org/ontology/sourceConfluenceElevation,The elevation of the source confluence of the X is Y
+http://dbpedia.org/ontology/sourceConfluenceMountain,The source confluence mountain of the X is in Y
+http://dbpedia.org/ontology/sourceConfluencePlace,The source confluence place of the X is Y
+http://dbpedia.org/ontology/sourceConfluencePosition,The source confluence position of river X is Y
+http://dbpedia.org/ontology/sourceConfluenceRegion,The source confluence region of the X is in Y
+http://dbpedia.org/ontology/sourceCountry,The X originates in Y
+http://dbpedia.org/ontology/sourceElevation,The elevation of the source of the X is Y
+http://dbpedia.org/ontology/sourceMountain,The source mountain of the X is in Y
+http://dbpedia.org/ontology/sourcePlace,The source place of the X is Y
+http://dbpedia.org/ontology/sourcePosition,The source position of X is Y
+http://dbpedia.org/ontology/sourceRegion,The source region of the X is Y
+http://dbpedia.org/ontology/speedLimit,The speed limit of X is Y kilometers per hour
+http://dbpedia.org/ontology/spokenIn,X is spoken in Y
+http://dbpedia.org/ontology/spouse,X is the spouse of Y
+http://dbpedia.org/ontology/staff,X has Y staff
+http://dbpedia.org/ontology/state,X is in Y
+http://dbpedia.org/ontology/stateOfOrigin,The state of origin of X is Y
+http://dbpedia.org/ontology/strength,The strength of X is y
+http://dbpedia.org/ontology/subdivisions,X is divided in Y areas
+http://dbpedia.org/ontology/successor,X is the successor of Y
+http://dbpedia.org/ontology/synonym,X is a synonym of Y
+http://dbpedia.org/ontology/team,X plays in the Y
+http://dbpedia.org/ontology/tenant,Y is the tenant of the X
+http://dbpedia.org/ontology/termPeriod,The term period of X is Y
+http://dbpedia.org/ontology/territory,The location of the X is Y
+http://dbpedia.org/ontology/timeZone,The time zone of X is the Y
+http://dbpedia.org/ontology/title,The title of X is Y
+http://dbpedia.org/ontology/topSpeed,The top speed of X is Y
+http://dbpedia.org/ontology/translator,X was translated by Y
+http://dbpedia.org/ontology/twinTown,X and Y are twin towns
+http://dbpedia.org/ontology/type,X is a Y
+http://dbpedia.org/ontology/typeOfElectrification,The X is powered by Y
+http://dbpedia.org/ontology/utcOffset,The UTC offset of X is Y
+http://dbpedia.org/ontology/vehiclesPerDay,Y vehicles go through the X every day
+http://dbpedia.org/ontology/veneratedIn,X was venerated in Y
+http://dbpedia.org/ontology/volume,The volume of X is Y
+http://dbpedia.org/ontology/wavelength,The wavelength of X is Y metres
+http://dbpedia.org/ontology/width,X is Y metres wide
+http://dbpedia.org/ontology/wins,X wins the price Y

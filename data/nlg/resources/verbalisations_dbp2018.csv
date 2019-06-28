@@ -1,0 +1,330 @@
+Relations,Labels,Templates,We don't know Y (knowing X),Plural Templates
+http://www.wikidata.org/entity/P1001,applies to jurisdiction,X applies to the jurisdiction of Y,I don't know which jurisdiction X applies to,X applies to the jurisdictions of Y
+http://www.wikidata.org/entity/P101,field of work,The discipline of X is Y,I don't know the discipline of X,The disciplines of X are Y
+http://www.wikidata.org/entity/P102,member of political party,X belongs to the Y,I don't know where X belongs to,X belongs to the Y
+http://www.wikidata.org/entity/P1027,conferred by,X is awarded by Y,I don't know who X was awarded by,X is awarded by Y
+http://www.wikidata.org/entity/P1028,donated by,X was donated by Y,I don't know who donated X,X was donated by Y
+http://www.wikidata.org/entity/P1029,crew member,Y is a crew member of X,I don't know crew members of X,Y are crew members of X
+http://www.wikidata.org/entity/P103,native language,Y is a native language of X,I don't know native languages of X,Y are native languages of X
+http://www.wikidata.org/entity/P1037,manager/director,Y manages X,I don't know who manages X,Y manage X
+http://www.wikidata.org/entity/P1038,relative,X is a family member of Y,I don't know relatives of X,X is a family member of Y
+http://www.wikidata.org/entity/P1040,film editor,Y is a film editor of X,I don't know a film editor of X,Y are film editors of X
+http://www.wikidata.org/entity/P1050,medical condition,Medical condition of X is Y,I don't know medical condition of X,Medical conditions of X are Y
+http://www.wikidata.org/entity/P1056,product or material produced,X produces Y,I don't know what X produces,X produces Y
+http://www.wikidata.org/entity/P1057,chromosome,X is localized in Y,I don't know where X is localized,X is localized in Y
+http://www.wikidata.org/entity/P106,occupation,X was occupied as Y,I don't know occupation of X,X was occupied as Y
+http://www.wikidata.org/entity/P1064,track gauge,Y is a track gauge of X,I don't know a track gauge of X,Y are track gauges of X
+http://www.wikidata.org/entity/P1066,student of,X is a student of Y,I don't know whose student X is,X is a student of Y
+http://www.wikidata.org/entity/P1071,location of final assembly,X is finally assembled in Y,I don't know where X was finally assembled,X is finally assembled in Y
+http://www.wikidata.org/entity/P108,employer,Y is the employer of X,I don't know who employs X,Y are the employers of X
+http://www.wikidata.org/entity/P1080,from fictional universe,X is from fictional universe of Y,I don't know which fictional universe is X from,X is from fictional universes of Y
+http://www.wikidata.org/entity/P110,illustrator,Y is an illustrator of X,I don't know who illustrated X,Y are illustrators of X
+http://www.wikidata.org/entity/P112,founded by,X was founded by Y,I don't know who founded X,X was founded by Y
+http://www.wikidata.org/entity/P113,airline hub,Y is an airline hub of X,I don't know an airline hub of X,Y are airline hubs of X
+http://www.wikidata.org/entity/P1142,political ideology,Y is a political ideology of X,I don't know a political ideology of X,Y are political ideologies of X
+http://www.wikidata.org/entity/P115,home venue,Y is a home venue of X,I don't know a home venue of X,Y are home venues of X
+http://www.wikidata.org/entity/P118,league,X was in Y league,I don't know which league X belongs to,X was in Y league
+http://www.wikidata.org/entity/P119,place of burial,The burial place of X is Y,I don't know where X is buried,The burial places of X are Y
+http://www.wikidata.org/entity/P1192,connecting service,X connects to Y,I don't know any connections to/from X,X connects to Y
+http://www.wikidata.org/entity/P1196,manner of death,X died because of Y,I don't know why X died,X died because of Y
+http://www.wikidata.org/entity/P121,item operated,X operates Y,I don't know what X operates,X operates Y
+http://www.wikidata.org/entity/P122,basic form of government,A basic form of government in X is Y,I don't know the government form of X,A basic form of governments in X are Y
+http://www.wikidata.org/entity/P123,publisher,Y is the publisher of X,I don't know who published X,Y are the publishers of X
+http://www.wikidata.org/entity/P126,maintained by,X is maintained by Y,I don't know who maintains X,X is maintained by Y
+http://www.wikidata.org/entity/P127,owned by,Y is the owner of X,I don't know who owns X,Y are the owners of X
+http://www.wikidata.org/entity/P129,physically interacts with,X physically interacts with Y,I don't know who interacts physically with X,X physically interacts with Y
+http://www.wikidata.org/entity/P1303,instrument,X plays Y,I don't know what instruments does X play,X plays Y
+http://www.wikidata.org/entity/P131,located in area,X is located in Y,I don't know where X is located,X is located in Y
+http://www.wikidata.org/entity/P1313,office held by head of government,head of X is called Y,I don't know how the head of X is called,heads of X are called Y
+http://www.wikidata.org/entity/P1340,eye color,The eye color of X is Y,I don't know the eye color of X,The eye colors of X are Y
+http://www.wikidata.org/entity/P1344,participant of,X is a participant of Y,I don't know where X participates,X is a participant of Y
+http://www.wikidata.org/entity/P1346,winner,X is won by Y,I don't know what X won,X is won by Y
+http://www.wikidata.org/entity/P135,movement,X was part of the movement Y,I don't know in what movement X took part,X was part of the movements Y
+http://www.wikidata.org/entity/P136,genre,The genre of X is Y,I don't know the genre of X,The genres of X are Y
+http://www.wikidata.org/entity/P137,operator,Y is an operator of X,I don't know who operates X,Y are operators of X
+http://www.wikidata.org/entity/P1376,capital of,X is a capital of Y,I don't know the capital of X,X is a capital of Y
+http://www.wikidata.org/entity/P138,named after,X was named after Y,I don't know after what was X named,X was named after Y
+http://www.wikidata.org/entity/P1382,partially coincident with,X is partially coincident with Y,I don't know what does X partially coincide with,X is partially coincident with Y
+http://www.wikidata.org/entity/P1383,contains settlement,X contains settlement Y,I don't know what settlements does X contain,X contains settlements Y
+http://www.wikidata.org/entity/P1389,product certification,X has a product certification of Y,I don't what product certifications does X have,X has product certifications of Y
+http://www.wikidata.org/entity/P1399,convicted of,X was found guilty of Y,I don't know about any convictions of X,X was found guilty of Y
+http://www.wikidata.org/entity/P140,religion,Y is the religion of X,I don't know the religion of X,Y are the religions of X
+http://www.wikidata.org/entity/P1403,original combination,Y is a protonym of X,I don't a protonym of X,Y are protonyms of X
+http://www.wikidata.org/entity/P1408,licensed to broadcast to,X is licensed to broadcast to Y,I don't know what X is licensed to broadcast,X is licensed to broadcast to Y
+http://www.wikidata.org/entity/P1411,nominated for,X is nominated for Y,I don't know any of the nominations of X,X is nominated for Y
+http://www.wikidata.org/entity/P1412,"languages spoken, written or signed",X speaks Y,I don't know what languages does X know,X speaks Y
+http://www.wikidata.org/entity/P1416,affiliation,X is affiliated to Y,I don't know what affilications does X have,X is affiliated to Y
+http://www.wikidata.org/entity/P1427,start point,Y is the starting point of X,I don't know the starting point of X,Y are the starting points of X
+http://www.wikidata.org/entity/P1431,executive producer,Y is the executive producer of X,I don't know who the executive produces of X is,Y are the executive producers of X
+http://www.wikidata.org/entity/P1433,published in,X was published in Y,I don't know when X was published,X was published in Y
+http://www.wikidata.org/entity/P1434,takes place in fictional universe,X happens in a fictional universe Y,I don't know in which fictional universe X takes place,X happens in a fictional universe Y
+http://www.wikidata.org/entity/P1435,heritage designation,Y is the heritage designation for X,I don't know the heritage designation for X,Y are the heritage designations for X
+http://www.wikidata.org/entity/P144,based on,X is based on Y,I don't know what X is based on,X is based on Y
+http://www.wikidata.org/entity/P1441,present in work,X is present in Y,I don't know where X is present in,X is present in Y
+http://www.wikidata.org/entity/P1444,destination point,The destination point of X is Y,I don't know what is the destination of X,The destination point of X are Y
+http://www.wikidata.org/entity/P1445,fictional universe described in,X is a fictional universe of Y,I don't know in which fictional universe X is described for,X are fictional universe of Y
+http://www.wikidata.org/entity/P1454,legal form,Legal form of X is Y,I don't know the legal form of X,Legal forms of X are Y
+http://www.wikidata.org/entity/P1462,standards body,Y maintains X,I don't know who maintains X,Y maintains X
+http://www.wikidata.org/entity/P149,architectural style,X was constructed using the Y architectural style,I don't know the architectural style for X,X was constructed using the Y architectural styles
+http://www.wikidata.org/entity/P1532,country for sport,X represents Y,I don't know which country X represents,X represents Y
+http://www.wikidata.org/entity/P1533,family name identical to this given name,X has a family name Y,I don't know the family name of X,X has family names Y
+http://www.wikidata.org/entity/P1542,has effect,X results in Y,I don't know what X results in,X results in Y
+http://www.wikidata.org/entity/P157,killed by,X was killed by Y,I don't know who killed X,X was killed by Y
+http://www.wikidata.org/entity/P1576,lifestyle,X's lifestyle is Y,I don't know about X's lifestyle,X's lifestyles are Y
+http://www.wikidata.org/entity/P159,headquarters location,Y is the headquarter of X,I don't know where is X's headquarter located in,Y are the headquarters of X
+http://www.wikidata.org/entity/P16,highway system,X is part of Y,I don't know which highway system X is part of,X is part of Y
+http://www.wikidata.org/entity/P161,cast member,Y took part in X,I don't know where X took part in,Y took part in X
+http://www.wikidata.org/entity/P162,producer,X is produced by Y,I don't know who produced X,X is produced by Y
+http://www.wikidata.org/entity/P163,flag,X has Y,I don't know which flag X has,X has Y
+http://www.wikidata.org/entity/P166,award received,X has been awarded with the Y,I don't know which award X has received,X has been awarded with the Y
+http://www.wikidata.org/entity/P169,chief executive officer,The CEO of X is Y,I don't know the CEO of X,The CEO of X are Y
+http://www.wikidata.org/entity/P17,country,The country of X is Y,I don't know what is the country of X,The countries of X are Y
+http://www.wikidata.org/entity/P170,creator,X is created by Y,I am not sure who created X,X is created by Y
+http://www.wikidata.org/entity/P172,ethnic group,The ethnicity of X is Y,I have no information on the ethnicity of X,The ethnicities of X are Y
+http://www.wikidata.org/entity/P175,performer,Y is the performer in X,I have no information on the performers in X,Y are the performers in X
+http://www.wikidata.org/entity/P1750,name day,X's name day is on Y,I can't find the name day of X,X's name day is on Y
+http://www.wikidata.org/entity/P176,manufacturer,X was built by Y,I'm not sure who built X,X was built by Y
+http://www.wikidata.org/entity/P177,crosses,The X crosses the Y,I do not know what crosses the X,The X crosses the Y
+http://www.wikidata.org/entity/P178,developer,X was developed by Y,I don't know who developed X,X was developed by Y
+http://www.wikidata.org/entity/P180,depicts,X depicts Y,I'm not sure what X depicts,X depicts Y
+http://www.wikidata.org/entity/P183,endemic to,X is endemic to Y,I don't know where X is endemic,X is endemic to Y
+http://www.wikidata.org/entity/P184,doctoral advisor,The doctoral advisor of X was Y,I can't recall who was the doctoral advisor of X,The doctoral advisors of X were Y
+http://www.wikidata.org/entity/P186,material used,The X is made of Y,I'm not sure what X is made of,The X is made of Y
+http://www.wikidata.org/entity/P1884,hair color,The hair color of X is Y,I have no data on the hair colour X,The hair color of X are Y
+http://www.wikidata.org/entity/P1885,cathedral,X is the cathedral of Y,I don't know that about X,X is the cathedral of Y
+http://www.wikidata.org/entity/P189,location of discovery,X was discovered in Y,I'm not sure where X was discovered,X was discovered in Y
+http://www.wikidata.org/entity/P19,place of birth,X was born in Y,I don't know where X ws born,X was born in Y
+http://www.wikidata.org/entity/P190,twinned administrative body,X is twinned with Y,I don't know with what X is twinned,X is twinned with Y
+http://www.wikidata.org/entity/P1923,participating teams,Y participated in X,I don't know who participated in X,Y participated in X
+http://www.wikidata.org/entity/P193,main building contractor,X is built by Y,I'm not sure who built X,X is built by Y
+http://www.wikidata.org/entity/P194,legislative body,X's legislative body is represented by Y,I don't know the legislative body of X,X's legislative body is represented by Y
+http://www.wikidata.org/entity/P195,collection,X is part of a collection in Y,I'm not sure in what collection is X,X is part of a collection in Y
+http://www.wikidata.org/entity/P196,minor planet group,X is part of Y,I am not sure which planer group X is part of,X is part of Y
+http://www.wikidata.org/entity/P197,adjacent station,X is adjacent to Y,I can't find the adjacent station to X,X is adjacent to Y
+http://www.wikidata.org/entity/P1990,species kept,X is housing Y,I am not sure about which species X bears,X is housing Y
+http://www.wikidata.org/entity/P1995,health specialty,The health speciality of X is Y,I have no data on the specialty of X,The health specialities of X are Y
+http://www.wikidata.org/entity/P20,place of death,The place of death of X was Y,I am missing place of death information for X,The place of deaths of X were Y
+http://www.wikidata.org/entity/P200,lake inflows,Y flows into the X,I don't know what flows into the X,Y flow into the X
+http://www.wikidata.org/entity/P201,lake outflow,X outflows into Y,I don't know what X outflows into,X outflows into Y
+http://www.wikidata.org/entity/P206,located in or next to body of water,X has a coast on Y,I'm not sure about the location of X,X has a coast on Y
+http://www.wikidata.org/entity/P2079,fabrication method,Y is used in X,I don't know what fabrication method is used in X,Y are used in X
+http://www.wikidata.org/entity/P21,sex or gender,The gender of X is Y,I have no data on the gender of X,The genders of X are Y
+http://www.wikidata.org/entity/P2175,medical condition treated,Y is treated using X,I don't know what conditions X can treat,Y are treated using X
+http://www.wikidata.org/entity/P2176,drug used for treatment,X is treated with Y,I'm not sure about the drugs used to treat X,X is treated with Y
+http://www.wikidata.org/entity/P22,father,X is the child of Y,I don't know the father of X,X is the child of Y
+http://www.wikidata.org/entity/P2239,first aid measures,First aid response to X is Y,I can't really tell what the first aid response to X is,First aid responses to X are Y
+http://www.wikidata.org/entity/P2293,genetic association,The gene X is associated with Y,I have no data on the associations to gene X,The gene X is associated with Y
+http://www.wikidata.org/entity/P2348,time period,X occurred in the era Y,I don't know in what era X occurred,X occurred in the era Y
+http://www.wikidata.org/entity/P237,coat of arms,Y is the coat of arms of X,I am not familiar with the coat of arms of X,Y are the coat of arms of X
+http://www.wikidata.org/entity/P241,military branch,X has military branch Y,I don't know the military branches of X,X has military branches Y
+http://www.wikidata.org/entity/P2416,sports discipline competed in,X competes in Y,I am missing data on the disciplines in which X competes,X competes in Y
+http://www.wikidata.org/entity/P2453,nominee,Y was nominated for X,I'm not sure who was nominated for X,Y were nominated for X
+http://www.wikidata.org/entity/P248,stated in,X is seen on Y,I don't know where X originates from,X is seen on Y
+http://www.wikidata.org/entity/P25,mother,X is the mother of Y,I don't really know about the children of X,X is the mother of Y
+http://www.wikidata.org/entity/P2515,costume designer,X designed the costume Y,I can't tell what X has designed,X designed the costume Y
+http://www.wikidata.org/entity/P2522,victory,X won Y,I don't know yet what X won,X won Y
+http://www.wikidata.org/entity/P2554,production designer,X is the production designer of Y,I don't really know what X designed,X is the production designer of Y
+http://www.wikidata.org/entity/P26,spouse,X is the spouse of Y,I was not informed about the spouse of X,X is the spouse of Y
+http://www.wikidata.org/entity/P2632,place of detention,X is detained at Y,I am missing data on the place of detention of X,X is detained at Y
+http://www.wikidata.org/entity/P264,record label,The record label of X is Y,I don't know the record label of X,The record label of X are Y
+http://www.wikidata.org/entity/P2695,type locality (geology),X is local to Y,I don't know about the locality of X ,X is local to Y
+http://www.wikidata.org/entity/P27,country of citizenship,X has the citizenship of Y,I don't have the information about citizenship of X,X has the citizenship of Y
+http://www.wikidata.org/entity/P272,production company,X is the production company of Y,I don't know who produces X,X is the production company of Y
+http://www.wikidata.org/entity/P275,license,The license for X is Y,I don't know the license under which X has been released,The licenses for X are Y
+http://www.wikidata.org/entity/P276,location,X is located in Y,I don't have data about the location of X,X is located in Y
+http://www.wikidata.org/entity/P277,programming language,X is developed in Y programming language,I am missing information about the programming language used for developing X,X is developed in Y programming languages
+http://www.wikidata.org/entity/P282,writing system,X uses Y,I don't have the knowledge about the writing system used by X,X uses Y
+http://www.wikidata.org/entity/P2860,cites,X cites Y,I am missing data about the works cited by X,X cites Y
+http://www.wikidata.org/entity/P287,designed by,X was designed by Y,I don't know the designer of X,X was designed by Y
+http://www.wikidata.org/entity/P289,vessel class,X is a Y,I don't posses the information about the vessel class of X,X are Y
+http://www.wikidata.org/entity/P291,place of publication,X is published in Y,I don't know where X was publised,X is published in Y
+http://www.wikidata.org/entity/P2978,wheel arrangement,X has wheel arrangement Y,I don't have the information about the wheel arrangement of X,X has wheel arrangements Y
+http://www.wikidata.org/entity/P30,continent,X is in the continent Y,I don't know in which continent X is located,X is in the continent Y
+http://www.wikidata.org/entity/P306,operating system,X has operating systerm Y,I don't know in which operating system X works,X has operating systerms Y
+http://www.wikidata.org/entity/P3085,qualifies for event,X has quailified for Y,I am missing the information about the events which X has qualified,X has quailified for Y
+http://www.wikidata.org/entity/P3091,mount,X mounted Y,I don't know the mounts of X,X mounted Y
+http://www.wikidata.org/entity/P3093,recovered by,X is recovered by Y,I don't have the information about X's recovery,X is recovered by Y
+http://www.wikidata.org/entity/P3113,does not have part,X lacks Y,I don't have the information about parts X lacks,X lacks Y
+http://www.wikidata.org/entity/P3137,parent peak,The parent peak of X is Y,I don't know the parent peak of X,The parent peak of X are Y
+http://www.wikidata.org/entity/P3150,birthday,X's birthday is on Y,I don't have the information about the birthday of X,X's birthday is on Y
+http://www.wikidata.org/entity/P3173,offers view on,Y can be seen from X,I don't know what you can see from X,Y can be seen from X
+http://www.wikidata.org/entity/P3179,territory overlaps,X has territory overlap with Y,I don't know the territory overlap of X,X has territory overlap with Y
+http://www.wikidata.org/entity/P3195,league points system,X's points system is Y,I don't know the point system of X,X's points systems are Y
+http://www.wikidata.org/entity/P3279,statistical leader,Y was a leader in one of statistical values during X,I can't find things which lead statistical values during X,Y were leaders in one of statistical values during X
+http://www.wikidata.org/entity/P3301,broadcast by,X is broadcasted by Y,I don't know who is the broadcaster of X,X is broadcasted by Y
+http://www.wikidata.org/entity/P3320,board member,X is the board member of Y,I don't know about the organizations of which X is a board member,X is the board member of Y
+http://www.wikidata.org/entity/P344,director of photography,X is the director of photography of Y,I'm unable to find artefacts of which X is the director of photography,X is the director of photography of Y
+http://www.wikidata.org/entity/P35,head of state,X is the head of state in Y,"I can't seem to be able to find the information about the state under the leadership of X
+",X is the head of state in Y
+http://www.wikidata.org/entity/P355,subsidiary,X is the subsidiary of Y,I can't find things of which X is a subsidiary,X is the subsidiary of Y
+http://www.wikidata.org/entity/P36,capital,Y is the capital of X,I don't know then capital of X,Y are the capitals of X
+http://www.wikidata.org/entity/P361,part of,X is part of Y,I don't know about things of which X is a part ,X is part of Y
+http://www.wikidata.org/entity/P364,original language of work,The original language of X is Y,I don't have the information regarding the original language of X,The original languages of X are Y
+http://www.wikidata.org/entity/P366,use,Main use of the X is Y,I don't know what the main uses of X is,Main use of the X are Y
+http://www.wikidata.org/entity/P37,official language,The official language of X is Y,I don't know the official language of X,The official languages of X are Y
+http://www.wikidata.org/entity/P371,presenter,X is presented by Y,I don't know who presents X,X is presented by Y
+http://www.wikidata.org/entity/P375,space launch vehicle,X is the launch vehicle of Y,I don't know about things of which X is the launch vehicle,X is the launch vehicle of Y
+http://www.wikidata.org/entity/P376,located on astronomical body,X is on Y,I'm unable to decide the astronomical body on which X is located,X is on Y
+http://www.wikidata.org/entity/P38,currency,The currency of X is the Y,I can't find the curreny of X,The currencies of X are the Y
+http://www.wikidata.org/entity/P39,position held,X held the position Y,I can't find the positions held by X,X held the position Y
+http://www.wikidata.org/entity/P397,parent astronomical body,X belongs to Y,I'm unable to find the astronomical body to which X belongs,X belongs to Y
+http://www.wikidata.org/entity/P398,child astronomical body,Y belongs to X,I can't find the astronomical bodies which belong to X,Y belong to X
+http://www.wikidata.org/entity/P40,child,Y is the child of X,I can't find the children of X,Y are children of X
+http://www.wikidata.org/entity/P400,platform,The platform of X is Y,I can't find the platforms of X,The platforms of X are Y
+http://www.wikidata.org/entity/P403,mouth of the watercourse,X flows into Y,I'm unable to decide into which X flows,X flows into Y
+http://www.wikidata.org/entity/P404,game mode,X's game mode is Y,I can't find the game modes of X,X's game modes are Y
+http://www.wikidata.org/entity/P407,language of work or name,X was created in Y,I don't know the language in which X was created,X was created in Y
+http://www.wikidata.org/entity/P408,software engine,X is powered by Y,I can't find the software powering X,X is powered by Y
+http://www.wikidata.org/entity/P410,military rank,X holds military rank Y,I don't know the ranks held by X,X holds military ranks Y
+http://www.wikidata.org/entity/P411,canonization status,X is a Y,I don't know the canonization status of X,X are Y
+http://www.wikidata.org/entity/P412,voice type,The voice type of X is Y,I don't know the voice type of X,The voice types of X are Y
+http://www.wikidata.org/entity/P413,position played on team / speciality,X has the role of Y,I don't know the role of X,X has the role of Y
+http://www.wikidata.org/entity/P414,stock exchange,X is publicly traded on Y,I don't know where X is traded,X is publicly traded on Y
+http://www.wikidata.org/entity/P417,patron saint,The patron of X is Y,I don't know the patron saint of X,The patrons of X are Y
+http://www.wikidata.org/entity/P421,located in time zone,The timezone of X is Y,I don't know the timezone of X,The timezones of X are Y
+http://www.wikidata.org/entity/P425,field of this occupation,The main object of occupation of X is Y,I don't know the occupation of X,The main object of occupation of X are Y
+http://www.wikidata.org/entity/P427,taxonomic type,The taxonomic type of Y is X,I don't know the taxonomic type of X,The taxonomic types of Y are X
+http://www.wikidata.org/entity/P437,distribution,X is available on Y,I don't know where X is available,X is available on Y
+http://www.wikidata.org/entity/P449,original network,The network of X is Y,I don't know the network of X,The network of X are Y
+http://www.wikidata.org/entity/P451,partner,X is the life partner of Y,I don't know the life partner of X,X are the life partners of Y
+http://www.wikidata.org/entity/P452,industry,X is in the Y industry,I don't know what industry X is in,X are in the Y industries
+http://www.wikidata.org/entity/P462,color,X has the color Y,I don't know the color of X,X has the colors Y
+http://www.wikidata.org/entity/P463,member of,X is the member of Y,I don't know what X is a member of,X is the member of Y
+http://www.wikidata.org/entity/P466,occupant,Y is the occupant of X,I don't know the occupant of X,Y are the occupants of X
+http://www.wikidata.org/entity/P467,legislated by,X is legislated by Y,I don't know who X is legislated by,X is legislated by Y
+http://www.wikidata.org/entity/P469,lakes on river,X flows through Y,I don't know where X flows through,X flows through Y
+http://www.wikidata.org/entity/P47,shares border with,X shares border with Y,I don't know what X shares a border with,X shares border with Y
+http://www.wikidata.org/entity/P479,input method,X has the input method Y,I don't know the input method of X,X has the input methods Y
+http://www.wikidata.org/entity/P485,archives at,X's works are archived at Y,I can't find where are  X's works archived,X's works are archived at Y
+http://www.wikidata.org/entity/P488,chairperson,X is the chairperson of Y,I don't know the chairperson of X,X is the chairperson of Y
+http://www.wikidata.org/entity/P495,country of origin,X is the country of origin of Y,I don't know the country of origin of X,X is the country of origin of Y
+http://www.wikidata.org/entity/P50,author,X was written by Y,I don't know the author of X,X was written by Y
+http://www.wikidata.org/entity/P504,home port,The home port of X is Y,I don't know the home port of X,The home ports of X are Y
+http://www.wikidata.org/entity/P509,cause of death,The cause of death of X was Y,I dont know the casue of death of X,The causes of death of X were Y
+http://www.wikidata.org/entity/P512,academic degree,X has the academic degree Y,I don't know what academic degrees X has,X has the academic degrees Y
+http://www.wikidata.org/entity/P516,powerplant,The powerplant of X is Y,I'm unable to find the powerplant of X,The powerplants of X are Y
+http://www.wikidata.org/entity/P520,armament,X is armed with Y,I don't have the data regarding X's armaments,X is armed with Y
+http://www.wikidata.org/entity/P53,family,X belongs to the Y,I can't find information regarding the family of X,X belongs to the Y
+http://www.wikidata.org/entity/P530,diplomatic relation,X has diplomatic relations with Y,I don't know the diplomatic relations of X,X has diplomatic relations with Y
+http://www.wikidata.org/entity/P532,port of registry,X's port of registry is Y,I can't find the port at which X is registered,X's port of registries is Y
+http://www.wikidata.org/entity/P54,member of sports team,X plays in the Y,I don't know where X plays,X plays in the Y
+http://www.wikidata.org/entity/P551,residence,X is the residence of Y,I don't know what is the residence of X,X is the residence of Y
+http://www.wikidata.org/entity/P559,terminus,X ends at Y,The terminus of X is unknown to me,X ends at Y
+http://www.wikidata.org/entity/P560,direction,X is directed towards Y,I don't know what X is directed twoards,X is directed towards Y
+http://www.wikidata.org/entity/P566,basionym,X's basionym is Y,I'm not aware of the basionyms of X,X's basionyms are Y
+http://www.wikidata.org/entity/P57,director,X is the director of Y,I don't know who the director of X is,X is the director of Y
+http://www.wikidata.org/entity/P58,screenwriter,X is the screenwriter of Y,I don't know who the screenwriter of X is,X is the screenwriter of Y
+http://www.wikidata.org/entity/P6,head of government,Y was the prime minister of X,I don't know who the prime minister of X is,Y were the prime ministers of X
+http://www.wikidata.org/entity/P607,conflict,X was involved in the Y,I don't know the conflicts X is a part of,X was involved in the Y
+http://www.wikidata.org/entity/P608,exhibition history,X was exhibited at Y,I can't seem to find exhibitions at which X was present,X was exhibited at Y
+http://www.wikidata.org/entity/P609,terminus location,X has the terminus location Y,I don't know where the terminus of X is,X has the terminus locations Y
+http://www.wikidata.org/entity/P61,discoverer or inventor,Y is the inventor of X,I don't know who invented X,Y are the inventors of X
+http://www.wikidata.org/entity/P610,highest point,X has the highest elevation in Y,I don't know what the highest point in X is,X has the highest elevation in Y
+http://www.wikidata.org/entity/P611,religious order,X belongs to the religious order of Y,I don't know what religious order X belongs to,X belongs to the religious orders of Y
+http://www.wikidata.org/entity/P629,edition or translation of,X is the edition or translation of Y,I can't find the artefacts of which X is the edition or translations,X is the edition or translation of Y
+http://www.wikidata.org/entity/P636,route of administration,X's route of administration is Y,I can't find the route of administration of X,X's routes of administration are Y
+http://www.wikidata.org/entity/P641,sport,X plays the sport Y,I dont' know the sports played by X,X plays the sports Y
+http://www.wikidata.org/entity/P647,drafted by,X is drafted by Y,I can't find the drafter of X,X is drafted by Y
+http://www.wikidata.org/entity/P655,translator,X is translated by Y,I'm unable to find the translators of X,X is translated by Y
+http://www.wikidata.org/entity/P658,tracklist,One of the track in the tracklist of X is Y,I don't know the tracks in X,Y are in the tracklist of X
+http://www.wikidata.org/entity/P664,organizer,X is the organiser of Y,I can't find the things that X organized,X is the organiser of Y
+http://www.wikidata.org/entity/P669,located on street,X is located on street Y,I can't find the street on which X rests,X is located on street Y
+http://www.wikidata.org/entity/P674,characters,X appears in Y,I don't know about things in which X appears,X appears in Y
+http://www.wikidata.org/entity/P676,lyrics by,X has lyrics written by Y,I don't know the lyricist of X,X has lyrics written by Y
+http://www.wikidata.org/entity/P680,molecular function,Molecular function of X is Y,I dont have the information regarding molecular function of X,Molecular functions of X are Y
+http://www.wikidata.org/entity/P681,cell component,X is the cell component for Y,I can't find the cells of which X is a component,X is the cell component for Y
+http://www.wikidata.org/entity/P682,biological process,X is involved in the biological process Y,I don't know the processes in which X is involved in,X is involved in the biological processs Y
+http://www.wikidata.org/entity/P684,ortholog,X's ortholog is Y,I can't find the ortholog of X,X's orthologs are Y
+http://www.wikidata.org/entity/P688,encodes,X is the product of a gene Y,I can't find the gene which results in X,X is the product of a gene Y
+http://www.wikidata.org/entity/P689,afflicts,X afflicts Y,I don't know what things were afflicted by X,X afflicts Y
+http://www.wikidata.org/entity/P69,educated at,X had their studies in Y,I don't know where was X educated,X had their studies in Y
+http://www.wikidata.org/entity/P702,encoded by,X is encoded by Y,I can't tell the encoder of X,X is encoded by Y
+http://www.wikidata.org/entity/P703,found in taxon,X is found in the taxon of Y,I'm not aware of the taxons in which X is found,X is found in the taxa of Y
+http://www.wikidata.org/entity/P706,located on terrain feature,X is located on Y,I'm unclear about what terrain features on which X is located,X is located on Y
+http://www.wikidata.org/entity/P708,diocese,The diocese of X is Y,I don't know the diocese of X,The dioceses of X are Y
+http://www.wikidata.org/entity/P710,participant,X took part in Y,I can't find things in which X participated,X took part in Y
+http://www.wikidata.org/entity/P725,voice actor,X is the voice actor of Y,I'm unable to find the characters voiced by X,X is the voice actor of Y
+http://www.wikidata.org/entity/P734,family name,X has the family name of Y,I don't know the family name of X,X has the family names of Y
+http://www.wikidata.org/entity/P735,given name,X has given name Y,I don't know the given name of X,X has given name Y
+http://www.wikidata.org/entity/P737,influenced by,X is influenced by Y,I can't find the influencer of X,X is influenced by Y
+http://www.wikidata.org/entity/P739,ammunition,X is used as ammunition in Y,I can't find what uses X as ammunition,X is used as ammunition in Y
+http://www.wikidata.org/entity/P740,location of formation,X was formed in Y,I don't know wherein was X formed,X was formed in Y
+http://www.wikidata.org/entity/P748,appointed by,X is appointed by Y,I can't tell who appointed X,X is appointed by Y
+http://www.wikidata.org/entity/P749,parent organization,X is the parent organisation of Y,I'm unable to decide the organizations under X,X is the parent organisation of Y
+http://www.wikidata.org/entity/P750,distributor,X is the distributor of Y,I can't find the things of which X is a distributor,X is the distributor of Y
+http://www.wikidata.org/entity/P765,surface played on,X is played on Y,I'm unable to tell the surface on which X is played,X is played on Y
+http://www.wikidata.org/entity/P767,contributor(s) to the creative work,Y is a contributor to X,I can't find the contributors of X,Y are contributors to X
+http://www.wikidata.org/entity/P768,electoral district,The electoral district of X is Y,I'm unsure about the unsure district of X,The electoral districts of X are Y
+http://www.wikidata.org/entity/P769,significant drug interaction,X significantly interacts with Y,I don't have the information regarding drug interactions of X,X significantly interacts with Y
+http://www.wikidata.org/entity/P780,symptoms,Y is a symptom is X,I'm not sure about the symptoms of X,Y are symptoms is X
+http://www.wikidata.org/entity/P790,approved by,X is approved by Y,I don't know who approved X,X is approved by Y
+http://www.wikidata.org/entity/P793,significant event,Y is a significant event involving X,I'm unable to find the significant events involving X,Y are significant events involving X
+http://www.wikidata.org/entity/P800,notable work,One of X's notable works is Y,I can't find the notable works of X,One of X's notable works is Y
+http://www.wikidata.org/entity/P802,student,X is a student of Y,I'm unable to tell whose student is X,X is a student of Y
+http://www.wikidata.org/entity/P805,statement is subject of,X is probably about Y,I don't know what X is about,X is probably about Y
+http://www.wikidata.org/entity/P81,connecting line,X is connecting line for Y,I'm very uncertain about the line into which X connects,X is connecting line for Y
+http://www.wikidata.org/entity/P812,academic major,X has a acadmic major in Y,I'm unaware about the academic major of X,X has a acadmic major in Y
+http://www.wikidata.org/entity/P825,dedicated to,X is dedicated to Y,I don't know who was X dedicated to,X is dedicated to Y
+http://www.wikidata.org/entity/P826,tonality,X is in a key of Y,I'm not informed about the tonalities of X,X is in a key of Y
+http://www.wikidata.org/entity/P828,has cause,Y causes X,I can't tell what causes X,Y cause X
+http://www.wikidata.org/entity/P837,day in year for periodic occurrence,X occurs every year on Y,I'm not sure on which day does X occur every year,X occurs every year on Y
+http://www.wikidata.org/entity/P84,architect,Y was the architect of X,I don't know whose the architect of X,Y were the architects of X
+http://www.wikidata.org/entity/P840,narrative location,The narrative location for X is Y,We're unaware about the narrative location of X,The narrative location for X are Y
+http://www.wikidata.org/entity/P841,feast day,The feast day for X is Y,I can't tell what is X's feast day,The feast days for X are Y
+http://www.wikidata.org/entity/P85,anthem,Y is the anthem for X,I don't know about the anthem of X,Y are the anthems for X
+http://www.wikidata.org/entity/P859,sponsor,The sponsor of X is Y,I don't know about the sponsors of X,The sponsors of X are Y
+http://www.wikidata.org/entity/P86,composer,The composer of X is Y,"Sorry, I don't have information about the composer of X",The composers of X are Y
+http://www.wikidata.org/entity/P870,instrumentation,X is orchestrated with Y,I don't know how X is orchestrated,X is orchestrated with Y
+http://www.wikidata.org/entity/P88,commissioned by,X is commissioned by Y,I don't know who commissioned X,X is commissioned by Y
+http://www.wikidata.org/entity/P880,CPU,Y is CPU used in X,I don't know which CPU has been used in X,Y are CPUs used in X
+http://www.wikidata.org/entity/P915,filming location,Y is the filming location of X,"Sorry, I am not aware of the filming location of X",Y are the filming locations of X
+http://www.wikidata.org/entity/P921,main subject,The main subject of X is Y,"Sorry, I don't know the main subject of X",The main subjects of X are Y
+http://www.wikidata.org/entity/P931,place served by transport hub,Y served by X as transport hub,I don't know the transport hub of X,Y served by X as transport hub
+http://www.wikidata.org/entity/P937,work location,Y is work location of X,"Sorry, I don't know the work location of X",Y are work location of X
+http://www.wikidata.org/entity/P941,inspired by,X is inspired by Y,"Sorry, I have no idea who have inspired X",X is inspired by Y
+http://www.wikidata.org/entity/P97,noble title,X is noble title of Y,I don't know the noble title of X,X is noble title of Y
+http://www.wikidata.org/entity/P974,tributary,X is tributary of Y,I don't know the tributary of X,X is tributary of Y
+http://www.wikidata.org/entity/P98,editor,Y is editor X,I don't know the editor of X,Y are the editors of X
+http://www.wikidata.org/entity/P991,successful candidate,Y was a succesful candidate of X,I don't know a successful candidate of X,Y were succesful candidates of X
+http://www.wikidata.org/entity/P3189,innervated by,X is innervated by Y,I don't know what X was innervated by,X is innervated by Y
+http://www.wikidata.org/entity/P155,follows,X follows Y,I don't know what X follows,X follows Y
+http://www.wikidata.org/entity/P1365,replaces,X follows Y,I don't know what X follows,X follows Y
+http://www.wikidata.org/entity/P286,head coach,Y is a head coach of X,I don't know who is the head coach of X,Y are head coaches of X
+http://www.wikidata.org/entity/P1619,date of official opening,X was opened in Y,I don't know when X was officially opened,X was opened in Y
+http://www.wikidata.org/entity/P1101,floors above ground,X has Y floors,"Sorry, I am not aware of the number of floors in X",X has Y floors
+http://www.wikidata.org/entity/P571,inception,X was founded in Y,I don't know when X was founded,X was founded in Y
+http://www.wikidata.org/entity/P969,located at street address,X is located at Y,I don't know the exact address of X,X is located at Y
+http://www.wikidata.org/entity/P2196,students count,X has Y students,I don't know how many students are at X,X has Y students
+http://www.wikidata.org/entity/P1174,visitors per year,X has approximately Y visitors annually,"Sorry, I don't know the number of visitors those visit X annually",X has approximately Y visitors annually
+http://www.wikidata.org/entity/P2048,height,X is Y meters tall,"Sorry, I don't know the height of X",X is Y meters tall
+http://www.wikidata.org/entity/P1083,maximum capacity,X has Y seats,I don't know how many seats are in X,X has Y seats
+http://www.wikidata.org/entity/P2043,length,X is Y long,I don't know how long X is,X is Y long
+http://www.wikidata.org/entity/P2046,area,X takes Y square meters of space,I don't know how much space X takes,X takes Y square meters of space
+http://www.wikidata.org/entity/P2130,cost,X approximately costed Y dollars,I don't know the cost of X,X approximately costed Y dollars
+http://www.wikidata.org/entity/P1451,motto text,X has a motto Y,I am not aware of the motto of X,X has a motto Y
+http://www.wikidata.org/entity/P569,date of birth,X was born on Y,I don't know the birthday of X,X was born on Y
+http://www.wikidata.org/entity/P822,mascot,A mascot of X is Y,I don't know the mascot of X,A mascot of X is Y
+http://www.wikidata.org/entity/P570,date of death,X died on Y,I don't know when X died,X died on Y
+http://www.wikidata.org/entity/P1477,birth name,X was born as Y,I don't know the birthname of X,X was born as Y
+http://www.wikidata.org/entity/P1128,employees,Y employees work at X,"At the moment, I can not answer how many employees work at X",Y employees work at X
+http://www.wikidata.org/entity/P1082,population,Population of X is Y,"Sorry, I am not aware of the population of X",Population of X is Y
+http://www.wikidata.org/entity/P885,origin of a watercourse,Source of X is Y,"Sorry, I don't know the source of X",Sources of X are Y
+http://www.w3.org/2000/01/rdf-schema#label,label,This is X,"Sorry, I don't know what it is",This is X
+http://www.w3.org/1999/02/22-rdf-syntax-ns#type,type,X is a Y,"Sorry, I don't know what it is",X are Y
+http://www.wikidata.org/entity/P3189,innervated by,X is innervated by Y,I am not sure who innvervated X,X is innervated by Y
+http://www.wikidata.org/entity/P279,subclass of,X is a subclass of Y,I am not sure which category X belongs to,X is a subclass of Y
+http://www.wikidata.org/entity/P150,contains administrative territorial entity,Y is in X,I don't have the informatiion about which admnistrative territory X has,Y are in X
+http://www.wikidata.org/entity/P156,followed by,X is followed by Y,I don't know who follows X,X is followed by Y
+http://www.wikidata.org/entity/P1308,officeholder,Y helds office in X,I don't have the information of who held the X office,Y held office in X
+http://www.wikidata.org/entity/P105,taxon rank,X has a taxon rank of Y,I dont know the taxon rank of X,X has a taxon rank of Y
+http://www.wikidata.org/entity/P59,constellation,X is in constellation Y,I'm not aware about the constellation to which X belongs,X is in constellation Y
+http://www.wikidata.org/entity/P171,parent taxon,Y is a parent taxon of X,I can't tell the parent taxon of X,Y are parent taxa of X
+http://www.wikidata.org/entity/P179,part of the series,X is a part of Y,I can't tell the series to which X belongs,X is a part of Y
+http://www.wikidata.org/entity/P65,site of astronomical discovery,X was discovered in Y,I don't have the information of the location at which X was discovered,X was discovered in Y
+http://www.wikidata.org/entity/P31,instance of,X is a Y,I don't know about X's categories,X is a Y
+http://www.wikidata.org/entity/P155,follows,X follows Y,I am not who follows X,X follows Y
+http://linkedgeodata.org/ontology/openingHours,opening hours,The opening hours of X are Y,,The opening hours of X are Y
+http://dbpedia.org/ontology/abstract,abstract,Y,,Y
+http://kdds.com/history,history,Y,,Y
+class_http://linkedgeodata.org/ontology/Restaurant,restaurants,I know a restaurant Y near X,I don't know restaurants around X,I know there are restaurants Y around X
+class_http://linkedgeodata.org/ontology/Cafe,coffee shops,I know a cafe Y near X,I don't know coffee shops around X,I know there are cafes Y around X 

@@ -1,0 +1,46 @@
+amt:
+  platform: mechanicalturk.amazonaws.com
+  key_id: AKIAJKL5REFIQKICSWMA
+  key: FGQ0+sbhlK3LqUUQk6TscLJYmSxqJ0swCFCrhpbt
+  key_path: /data/dchaudhu/KDDS/Query_1st/kdds-amt/data/keys/rootkey_amt_giulio_prod.csv
+hit:
+  frame_h: 800
+  n_hits: 10
+  max_assignments: 1
+  user_reward: 0.02
+  system_reward: 0.03
+  title: In-car Dialogues
+  description: Conversations over points of interest (POIs) while navigating a city in a car.
+  keywords: car, dialogues, research
+  duration: 300
+  locale:
+    - US
+    - CA
+    - GB
+    - DE
+    - GL
+    - AU
+    - IE
+  requirements: 90
+  hit_f: /data/dchaudhu/KDDS/Query_1st/kdds-amt/data/hits/
+input:
+  file: /data/dchaudhu/KDDS/Query_1st/kdds-amt/data/dialogues/dialogues_nu.csv
+  layout: /data/dchaudhu/KDDS/Query_1st/kdds-amt/data/layouts/dialogues_queryfirst.html
+  variables:
+    - maps_link
+    - wiki_link
+    - img_link
+    - poi_name
+    - poiRes
+    - entities
+    - role
+nlg:
+  endpoint: https://kddssparql.sda.tech/sparql
+  api: https://kddssparql.sda.tech/nlg
+<<<<<<< HEAD
+  template: /data/dchaudhu/KDDS/Query_1st/kdds-amt/resources/whiteListRelation2.csv
+  white_relations: /data/dchaudhu/KDDS/Query_1st/kdds-amt/resources/whiteListRelationLabel.csv
+=======
+  template: /data/dchaudhu/KDDS/kdds-amt/resources/whiteListRelationLabel.csv
+  white_relations: /data/dchaudhu/KDDS/kdds-amt/resources/whiteListRelationLabel.csv
+>>>>>>> 442fcf00612c3d983eb6ee4dcc620a8858605684

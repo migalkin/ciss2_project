@@ -1,0 +1,152 @@
+<!-- This file needs to be hosted on an external server.  -->
+<html>
+    <head>
+        <style type="text/css">body {background-color: white;}
+                    .container {
+                        padding: 30px;
+                        background: white;
+                    }
+                    /* Style the header */
+                    .header {
+                        background-color: #666;
+                        padding: 15px;
+                        text-align: center;
+                        font-size: 35px;
+                        color: white;
+                    }
+                    /* Container for flexboxes */
+                    .section {
+                        display: -webkit-flex;
+                        display: flex;
+                    }
+                    .left_div
+                    {
+                        float:left;
+                        width:55%;
+                    }
+                    .right_div
+                    {
+                        float:right;
+                        width:30%;
+                    }
+        </style>
+    </head>
+
+    <body>
+        <div class="container">
+            <h1 class="header">In-Car Dialogues</h1>
+            <div class="section">
+                <div class="left_div">
+                    <div id="userInst" style="display:none">
+                        <h2>Role: User of a Car</h2>
+                        <ul style='margin-top:0;margin-left:0;margin-right:10;'>
+                            <li>You are a car <b>driver</b> using a virtual assistant, the <b>picture</b> below is <b>your view</b>.</li><li>Try to <b>naturally continue</b> the <b>conversation</b> with your new question about the point of interest (or some small talks like weather/nearby restaurants etc.).</li>
+                        </ul>
+                    </div>
+                    <div id="systemInst" style="display:none">
+                        <h2>Role: Virtual Assistant Computer</h2>
+                        <ul style='margin-top:0;margin-left:0;margin-right:10;'>
+                            ${system_inst}
+                        </ul>
+                    </div>
+                    <br>
+                    <div>
+                        <h2 id="poiName">Haus des Rundfunks</h2>
+                        <p id="poiRes" style="display:none">http://dbpedia.org/resource/Haus_des_Rundfunks</p>
+                        <img alt="Haus des Rundfunks" height="330" src="http://131.220.9.219/poikdds/600px-WestendMasurenalleeHausdesRundfunks.JPG" width="auto">
+                        <ul>
+                            <li id="map" style="display:none"><a href="https://www.google.de/maps/place/Haus+des+Rundfunks+%26+Gro%C3%9Fer+Sendesaal/@52.5079865,13.2746476,17z/data=!3m1!4b1!4m5!3m4!1s0x47a850d34caacaf3:0x972f21a72987a30e!8m2!3d52.5079833!4d13.2768416" rel="noopener noreferrer" target="_blank">Google Maps</a></li>
+                            <li id="wiki" style="display:none"><a href="https://en.wikipedia.org/wiki/Haus_des_Rundfunks" rel="noopener noreferrer" target="_blank">Wikipedia</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="right_div">
+                    <div>
+                        <h2>Dialogue</h2>
+                        <ul>
+                            <li>Q1: Hi, do you ride a bicycle?</li>
+<li>A1: Yes, I ride it here every day.</li></ul>
+
+                        <ul id="whiteListRelations" style="display: none">
+                            <li>white list of relations</li>
+                        </ul>
+                    </div>
+                    <div id="entities" style="display:none">http://dbpedia.org/resource/Haus_des_Rundfunks</div>
+                    <div class="form-group">
+                        <form action="https://workersandbox.mturk.com/mturk/externalSubmit" id="mturk_form" method="post" name="mturk_form">
+                            <input class="form-control" form="mturk_form" id="sSel" name="Subject" type="hidden" value="" />
+                            <div id="queries" style="display:none">
+                                <label id="semanticQuestion1">Select computed answer from the following drop down list: </label><br />
+                                <select id="sOptions" style="max-width: 500px"></select><br />
+                                <label id="semanticQuestion2">If you cannot select a good computed answer, please write the actual answer here: </label><br />
+                            </div>
+                            <input id="role" style="display:none" type="checkbox" value="user" /> 
+                            <label id="question" style="display:none">Please write your question: </label>
+                            <!--<label id="answer" style="display:none">Please write your answer: </label> -->
+                            <input id="assignmentId" name="assignmentId" type="hidden" value="" />
+                            <textarea class="form-control" cols="60" form="mturk_form" id="qaid" name="qa" rows="6" wrap="soft"></textarea><br />
+                            <input id="submitButton" type="submit" value="Submit" />
+                        </form>
+                            <em>NOTE: Submitting the <b>same question or answer</b>, <b>using slang</b>, or <b>answering with "I don't know"</b> would lead to an <b>automatic rejection</b> of the HIT.</em>
+                    </div>
+                </div>
+            </div>
+        </div>
+   
+        <script src="https://code.jquery.com/jquery-3.1.0.min.js" integrity="sha256-cCueBR6CsyA4/9szpPfrX3s49M9vUU5BgtiJj06wt/s=" crossorigin="anonymous"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.0.3/js/bootstrap.min.js" integrity="sha384-s1ITto93iSMDxlp/79qhWHi+LsIi9Gx6yL+cOKDuymvihkfol83TYbLbOw+W/wv4" crossorigin="anonymous"></script>
+        <script type='text/javascript' src='https://s3.amazonaws.com/mturk-public/externalHIT_v1.js'></script>
+        <script language='Javascript'>turkSetAssignmentID();</script>
+        <script>
+		   $(document).ready(function() {
+				var role = document.getElementById('role').getAttribute("value");
+				if (role == "user"){
+					document.getElementById('userInst').style.display="block";
+					document.getElementById('question').style.display="block";
+					document.getElementById('poiName').style.display="none";
+				}
+				else if (role == "system") {
+					document.getElementById('systemInst').style.display="block";
+					document.getElementById('map').style.display="block";
+					document.getElementById('wiki').style.display="block";
+					document.getElementById('queries').style.display="block";
+					//document.getElementById('answer').style.display="block";
+				}
+
+				var resource = document.getElementById('poiRes').innerText;
+				var entities = document.getElementById('entities').innerText;
+
+                var ss = document.getElementById("sOptions");
+                ss.options[ss.options.length] = new Option("", "none");
+				$('#whiteListRelations li').each(function(){
+				    console.log($(this).attr("label"));
+					ss.options[ss.options.length] = new Option($(this).text(), $(this).attr("label")); // nl, triple
+				});
+				$("#sSel").attr("value", ss.options[ss.selectedIndex].value);
+				$('#submitButton').attr('disabled',true);
+			});
+
+			function subjectCheck() {
+				var sel = document.getElementById("sOptions");
+				var dropDown_sel = sel.options[sel.selectedIndex].value;
+				$("#sSel").attr("value", dropDown_sel);
+				if($('#qaid').val().length!=0 || sel.options[sel.selectedIndex].value!="none"){
+                    $('#submitButton').attr('disabled',false);
+                }else{
+                    $('#submitButton').attr('disabled',true);
+                }
+			}
+
+			$('#sOptions').change(subjectCheck);
+			$('#submitButton').attr('disabled', true);
+			$('#qaid').keyup(function(){
+				var sel = document.getElementById("sOptions");
+				var dropDown_sel = sel.options[sel.selectedIndex].value;
+				if($(this).val().length!=0 || dropDown_sel!="none")
+					$('#submitButton').attr('disabled', false);
+				else
+					$('#submitButton').attr('disabled',true);
+			});
+        </script>
+    </body>
+</html>

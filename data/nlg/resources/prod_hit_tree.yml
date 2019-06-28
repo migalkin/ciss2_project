@@ -1,0 +1,54 @@
+amt:
+  platform: mechanicalturk.amazonaws.com
+  key_id: AKIAJKL5REFIQKICSWMA
+  key: FGQ0+sbhlK3LqUUQk6TscLJYmSxqJ0swCFCrhpbt
+  key_path: /data/dchaudhu/KDDS/Query_1st/kdds-amt/data/keys/rootkey_amt_giulio_prod.csv
+hit:
+  frame_h: 800
+  n_hits: 1
+  max_assignments: 1
+  user_reward: 0.02
+  system_reward: 0.03
+  title: In-car Dialogues
+  description: Conversations over points of interest (POIs) while navigating a city in a car.
+  keywords: car, dialogues, research
+  duration: 300
+  locale:
+    - US
+    - CA
+    - GB
+    - DE
+    - GL
+    - AU
+    - IE
+  hit_f: /data/dchaudhu/KDDS/Query_1st/kdds-amt/data/hits/
+  base_hit_ids: /data/dchaudhu/KDDS/Query_1st/kdds-amt/data/hits/hits_180904_16_54.npy
+  q_mark: q
+  a_mark: a
+  q_a_pair_num: 5
+  requirements: 95
+input:
+  file: /data/dchaudhu/KDDS/Query_1st/kdds-amt/data/dialogues/dialogues_nu.csv
+  layout: /data/dchaudhu/KDDS/Query_1st/kdds-amt/data/layouts/dialogues_queryfirst.html
+  variables:
+    - maps_link
+    - wiki_link
+    - img_link
+    - poi_name
+    - poiRes
+    - entities
+    - role
+  swear_f: /data/dchaudhu/KDDS/Query_1st/kdds-amt/data/swear_words.txt
+  rejection_reason_f: /data/dchaudhu/KDDS/Query_1st/kdds-amt/data/reject_reason.txt
+output:
+  hit_dict_dir:
+    hit_dictionary: /data/dchaudhu/KDDS/Query_1st/kdds-amt/data/hit_dictionary/hit_dictionary.npy
+    conv_dict: /data/dchaudhu/KDDS/Query_1st/kdds-amt/data/hit_dictionary/conv_dict.npy
+    worker_q_dict: /data/dchaudhu/KDDS/Query_1st/kdds-amt/data/hit_dictionary/worker_q_dict.pkl
+    deleted_hits: /data/dchaudhu/KDDS/Query_1st/kdds-amt/data/hit_dictionary/deleted_hits.pkl
+    malice_workers: /data/dchaudhu/KDDS/Query_1st/kdds-amt/data/hit_dictionary/malice_worker.pkl
+nlg:
+  endpoint: https://kddssparql.sda.tech/sparql
+  api: https://kddssparql.sda.tech/nlg
+  template: /data/dchaudhu/KDDS/Query_1st/kdds-amt/resources/whiteListRelationLabel.csv
+  white_relations: /data/dchaudhu/KDDS/Query_1st/kdds-amt/resources/whiteListRelationLabel.csv

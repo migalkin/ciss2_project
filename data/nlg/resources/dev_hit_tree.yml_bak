@@ -1,0 +1,52 @@
+amt:
+  platform: mechanicalturk.sandbox.amazonaws.com
+  key_id: AKIAJKL5REFIQKICSWMA
+  key: FGQ0+sbhlK3LqUUQk6TscLJYmSxqJ0swCFCrhpbt
+  key_path: data/keys/rootkey_rosko.csv
+hit:
+  frame_h: 800
+  n_hits: 1
+  max_assignments: 1
+  user_reward: 0.02
+  system_reward: 0.03
+  title: In-car Dialogues
+  description: Conversations over points of interest (POIs) while navigating a city in a car.
+  keywords: car, dialogues, research
+  duration: 300
+  locale:
+    - US
+    - CA
+    - GB
+    - DE
+    - GL
+    - AU
+    - IE
+  hit_f: data/hits/
+  base_hit_ids: data/hits/hits_180904_12_09.npy
+  q_mark: q
+  a_mark: a
+  q_a_pair_num: 5
+  requirements: 70
+input:
+  file: data/dialogues/dialogue.csv
+  layout: data/layouts/dialogues_queryfirst.html
+  variables:
+    - maps_link
+    - wiki_link
+    - img_link
+    - poi_name
+    - poiRes
+    - entities
+    - role
+  swear_f: data/swear_words.txt
+output:
+  hit_dict_dir:
+    hit_dictionary: data/hit_dictionary/hit_dictionary.npy
+    conv_dict: data/hit_dictionary/conv_dict.npy
+    worker_q_dict: data/hit_dictionary/worker_q_dict.pkl
+    deleted_hits: data/hit_dictionary/deleted_hits.pkl
+    malice_workers: data/hit_dictionary/malice_worker.pkl
+nlg:
+  api: http://apps.openbudgets.eu/nlg
+  template: resources/whiteListRelation2.csv
+  white_relations: resources/whiteListRelationLabel.csv

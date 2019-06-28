@@ -1,0 +1,44 @@
+amt:
+  platform: mechanicalturk.sandbox.amazonaws.com
+  key_id: AKIAJKL5REFIQKICSWMA
+  key: FGQ0+sbhlK3LqUUQk6TscLJYmSxqJ0swCFCrhpbt
+  key_path: data/keys/rootkey_giulio.csv
+hit:
+  frame_h: 800
+  n_hits: 1
+  max_assignments: 1
+  user_reward: 0.02
+  system_reward: 0.03
+  title: In-car Dialogues
+  description: Conversations over points of interest (POIs) while navigating a city in a car.
+  keywords: car, dialogues, research
+  duration: 300
+  locale:
+    - US
+    - CA
+    - GB
+    - DE
+    - GL
+    - AU
+    - IE
+  requirements: 80
+  hit_f: data/hits/
+input:
+  file: data/dialogues/dialogue.csv
+  layout: data/layouts/dialogues_queryfirst.html
+  variables:
+    - maps_link
+    - wiki_link
+    - img_link
+    - poi_name
+    - poiRes
+    - entities
+    - role
+nlg:
+  endpoint: http://kg_service:8890/sparql
+  api: https://apps.openbudgets.eu/triple2nl
+  template: resources/whiteListRelationLabel.csv
+  white_relations: resources/whiteListRelationLabel.csv
+  dbp2018_verbalisations: resources/verbalisations_dbp2018.csv
+  dbp2018_verbalisations_de: resources/templates_negations_de.csv
+  dbp2018_endpoint: http://eis-warpcore-01:8899/sparql
